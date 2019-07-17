@@ -1,0 +1,189 @@
+// Importing variables
+@import "./variables.scss";
+
+// Importing Bulma from node_modules
+@import "~bulma/bulma.sass";
+
+.SectionBlock {
+  position: relative;
+  margin-top: 45px;
+}
+
+.SectionBlock #introAngled {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: skewY(-6deg);
+  transform-origin: 0;
+  position: absolute;
+  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
+}
+
+.SectionBlock .introBG {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/introbg.svg) repeat center center fixed;
+}
+
+.SectionBlock .competitionBG {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/competitionbg.svg) repeat center center fixed;
+}
+
+.SectionBlock .teamBG {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/teambg.svg) repeat center center fixed;
+  background-size: cover;
+}
+
+.block-title-bw {
+  background: black;
+  color: white;
+  font-family: klavika-web, Helvetica, sans-serif;
+  display: inline-block;
+  line-height: 1;
+  padding: 5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.block-title-wb {
+  background: white;
+  color: black;
+  font-family: klavika-web, Helvetica, sans-serif;
+  display: inline-block;
+  line-height: 1;
+  padding: 5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.SectionBlock #competitionAngled {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: skew(0, 3deg);
+  position: absolute;
+  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+  background: black;
+}
+
+.SectionBlock #TeamAngled {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: skew(0, -3deg);
+  position: absolute;
+  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
+}
+
+.has-horizontal-scroll {
+  position: relative;
+  margin: 50px 0;
+}
+
+.scrolling-wrapper-flexbox {
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: visible;
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flexbox .feature-card {
+  z-index: 9;
+  background: white;
+  flex: 0 0 auto;
+  padding: 30px 16px;
+  margin-right: 2%;
+  border: 1px solid white;
+  width: 23.5%;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #dedede;
+  text-align: center;
+  position: relative;
+}
+
+.scrolling-wrapper-flexbox .feature-card figure {
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .scrolling-wrapper-flexbox:after {
+    display: none;
+  }
+  .scrolling-wrapper-flexbox .feature-card {
+    width: 45%;
+    height: 250px;
+  }
+  .scrolling-wrapper-flexbox .padder-card {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .scrolling-wrapper-flexbox .feature-card {
+    width: 90%;
+    height: 250px;
+  }
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.align-middle {
+  margin: auto;
+}
+
+footer.footer-dark {
+  background: black;
+  color: white;
+  .columns {
+    margin-top: 35px;
+  }
+  .footer-logo {
+    img {
+      height: 75px;
+    }
+  }
+  .footer-column {
+    .footer-header h3 {
+      font-weight: 500;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+    ul.link-list {
+      line-height: 40px;
+      font-size: 1.1rem;
+      a {
+        color: white;
+        font-weight: 400;
+      }
+      :hover {
+        color: $primary;
+      }
+    }
+    .level-item #icon {
+      color: white;
+      :hover {
+        color: $primary;
+      }
+    }
+  }
+}
