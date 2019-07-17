@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import "./style.scss"
 import logo from "../images/logo.svg"

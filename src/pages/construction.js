@@ -18,7 +18,7 @@ const ConstructionPage = () => (
             </div>
             <div class="column">
               <figure>
-                <img src={cat} />
+                <img src={cat} alt="Gif de um gato programando" />
               </figure>
             </div>
           </div>

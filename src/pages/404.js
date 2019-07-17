@@ -18,7 +18,7 @@ const NotFoundPage = () => (
             </div>
             <div class="column">
               <figure>
-                <img src={john} />
+                <img src={john} alt="Gif John Travolta perdido" />
               </figure>
             </div>
           </div>

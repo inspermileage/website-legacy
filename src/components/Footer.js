@@ -80,6 +80,8 @@ const Footer = () => (
                   <a
                     class="level-item"
                     href="https://facebook.com/inspermileage"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span className="icon">
                       <a>
@@ -90,6 +92,8 @@ const Footer = () => (
                   <a
                     class="level-item"
                     href="https://instagram.com/inspermileage"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span className="icon">
                       <a>
@@ -100,6 +104,8 @@ const Footer = () => (
                   <a
                     class="level-item"
                     href="https://linkedin.com/company/insper-mileage/"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span className="icon">
                       <a>
@@ -107,7 +113,12 @@ const Footer = () => (
                       </a>
                     </span>
                   </a>
-                  <a class="level-item" href="https://github.com/inspermileage">
+                  <a
+                    class="level-item"
+                    href="https://github.com/inspermileage"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <span className="icon">
                       <a>
                         <FaGithub id="icon" size="fa-2x" />

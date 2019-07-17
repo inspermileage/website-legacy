@@ -31,7 +31,7 @@ const Project = () => (
             </p>
           </div>
           <div class="column">
-            <img class="image" src={car} />
+            <img class="image" src={car} alt="Protótipo Bolt" />
           </div>
         </div>
       </div>

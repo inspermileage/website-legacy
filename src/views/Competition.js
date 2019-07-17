@@ -1,6 +1,5 @@
 import React from "react"
 import shell from "../images/shellecomarathon.svg"
-import car from "../images/car.svg"
 import { Link } from "gatsby"
 
 const Competition = () => (
@@ -21,7 +20,7 @@ const Competition = () => (
           <h1 class="title is-2 block-title-wb">Shell oquê?</h1>
           <div class="columns">
             <div class="column">
-              <img src={shell} />
+              <img src={shell} alt="Shell Eco Marathon Logo" />
             </div>
             <div class="column">
               <h1 class="subtitle is-5 has-text-white">

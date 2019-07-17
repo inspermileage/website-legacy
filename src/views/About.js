@@ -38,7 +38,7 @@ const About = () => (
             </p>
           </div>
           <div class="column">
-            <img class="image" src={car} />
+            <img class="image" src={car} alt="Prototype Bolt" />
           </div>
         </div>
       </div>
