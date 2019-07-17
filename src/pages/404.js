@@ -10,9 +10,9 @@ const NotFoundPage = () => (
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
+          <h1 class="title is-2 block-title-bw">404</h1>
           <div class="columns">
             <div class="column">
-              <h1 class="title is-2 block-title-bw">404</h1>
               <h1 class="subtitle is-5">
                 Está página não existe. Você por acaso se perdeu?
               </h1>
