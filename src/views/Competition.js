@@ -17,7 +17,7 @@ const Competition = () => (
     <section id="competition" class="hero is-medium">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title is-2 block-title-wb">Shell oquê?</h1>
+          <h1 class="title is-2 block-title-wb">Shell o quê?</h1>
           <div class="columns">
             <div class="column">
               <img src={shell} alt="Shell Eco Marathon Logo" />

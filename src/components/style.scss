@@ -24,14 +24,14 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../images/introbg.svg) repeat center center fixed;
+  background: url(../images/introbg5.svg) repeat center center fixed;
 }
 
 .SectionBlock .competitionBG {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../images/competitionbg.svg) repeat center center fixed;
+  background: url(../images/competitionbg2.svg) repeat center center fixed;
 }
 
 .SectionBlock .teamBG {
@@ -43,29 +43,44 @@
 }
 
 .block-title-bw {
-  background: black;
-  color: white;
-  font-family: klavika-web, Helvetica, sans-serif;
-  display: inline-block;
-  line-height: 1;
+  //   background: $secondary;
+  //   color: white;
+  //   font-family: klavika-web, Helvetica, sans-serif;
+  //   display: inline-block;
+  //   line-height: 1;
+  //   padding: 5px;
+  //   letter-spacing: 0.05em;
+  //   text-transform: uppercase;
+  //   margin-block-start: 0.83em;
+  //   margin-block-end: 0.83em;
+
+  margin: 15px 15px 0 15px;
+  white-space: nowrap;
   padding: 5px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  font-size: 2em;
+  width: min-content;
+  border: 4px solid $secondary;
 }
 
 .block-title-wb {
-  background: white;
-  color: black;
-  font-family: klavika-web, Helvetica, sans-serif;
-  display: inline-block;
-  line-height: 1;
+  //   background: white;
+  //   color: $secondary;
+  //   font-family: klavika-web, Helvetica, sans-serif;
+  //   display: inline-block;
+  //   line-height: 1;
+  //   padding: 5px;
+  //   letter-spacing: 0.05em;
+  //   text-transform: uppercase;
+  //   margin-block-start: 0.83em;
+  //   margin-block-end: 0.83em;
+
+  margin: 15px 15px 0 15px;
+  white-space: nowrap;
   padding: 5px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  font-size: 2em;
+  width: min-content;
+  border: 4px solid white;
+  color: white;
 }
 
 .SectionBlock #competitionAngled {
@@ -75,7 +90,7 @@
   transform: skew(0, 3deg);
   position: absolute;
   box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-  background: black;
+  background: $secondary;
 }
 
 .SectionBlock #TeamAngled {
@@ -150,7 +165,7 @@
 }
 
 footer.footer-dark {
-  background: black;
+  background: $secondary;
   color: white;
   .columns {
     margin-top: 35px;
