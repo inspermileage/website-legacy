@@ -57,7 +57,7 @@ class Header extends React.Component {
           >
             <div class="navbar-end">
               <Link to="/" className="navbar-item is-tab">
-                Inicio
+                Início
               </Link>
               <Link to="/construction" className="navbar-item is-tab">
                 Sobre

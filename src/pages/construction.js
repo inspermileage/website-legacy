@@ -2,10 +2,11 @@ import React from "react"
 import Layout from "../components/Layout"
 import cat from "../images/construction.gif"
 
+import SEO from "../components/SEO"
+
 const ConstructionPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="Oops..." />
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">

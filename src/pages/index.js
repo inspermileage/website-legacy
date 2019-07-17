@@ -11,7 +11,7 @@ import Partners from "../views/Partners"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Início" />
     <Intro />
     <About />
     <Competition />
