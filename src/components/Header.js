@@ -30,7 +30,7 @@ class Header extends React.Component {
   render() {
     return (
       <nav
-        class="navbar is-fixed-top"
+        class="navbar is-fixed-top has-shadow"
         role="navigation"
         aria-label="main navigation"
       >
@@ -59,20 +59,27 @@ class Header extends React.Component {
               <Link to="/" className="navbar-item is-tab">
                 Início
               </Link>
-              <Link to="/construction" className="navbar-item is-tab">
-                Sobre
-              </Link>
-              <Link to="/construction" className="navbar-item is-tab">
-                Competição
-              </Link>
-              <Link to="/construction" className="navbar-item is-tab">
-                Projeto
-              </Link>
-              <Link to="/construction" className="navbar-item is-tab">
-                Time
-              </Link>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <Link to="/construction" className="navbar-link">
+                  Sobre
+                </Link>
+                <div class="navbar-dropdown is-boxed">
+                  <Link to="/construction" className="navbar-item">
+                    Competição
+                  </Link>
+                  <Link to="/construction" className="navbar-item">
+                    Projeto
+                  </Link>
+                  <Link to="/construction" className="navbar-item">
+                    Equipe
+                  </Link>
+                </div>
+              </div>
               <Link to="/construction" className="navbar-item is-tab">
                 Parceiros
+              </Link>
+              <Link to="/construction" className="navbar-item is-tab">
+                Blog
               </Link>
               <Link to="/construction" className="navbar-item is-tab">
                 Contato
