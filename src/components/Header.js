@@ -63,7 +63,7 @@ class Header extends React.Component {
                 <Link to="/construction" className="navbar-link">
                   Sobre
                 </Link>
-                <div class="navbar-dropdown is-boxed">
+                <div class="navbar-dropdown">
                   <Link to="/construction" className="navbar-item">
                     Competição
                   </Link>
