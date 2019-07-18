@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./style.scss"
 import logo from "../images/logo.svg"
 
 const NavbarBurger = props => (
