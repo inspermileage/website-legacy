@@ -198,8 +198,11 @@ footer.footer-dark {
         color: $primary;
       }
     }
-    .level-item #icon {
-      color: white;
+    .level-item {
+      .footer-icon {
+        color: white;
+      }
+
       :hover {
         color: $primary;
       }

@@ -119,7 +119,7 @@ class Footer extends React.Component {
                       >
                         <span className="icon">
                           <a>
-                            <FaFacebook id="icon" size="fa-2x" />
+                            <FaFacebook class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
                       </a>
@@ -131,7 +131,7 @@ class Footer extends React.Component {
                       >
                         <span className="icon">
                           <a>
-                            <FaInstagram id="icon" size="fa-2x" />
+                            <FaInstagram class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
                       </a>
@@ -143,7 +143,7 @@ class Footer extends React.Component {
                       >
                         <span className="icon">
                           <a>
-                            <FaLinkedin id="icon" size="fa-2x" />
+                            <FaLinkedin class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
                       </a>
@@ -155,7 +155,7 @@ class Footer extends React.Component {
                       >
                         <span className="icon">
                           <a>
-                            <FaGithub id="icon" size="fa-2x" />
+                            <FaGithub class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
                       </a>
