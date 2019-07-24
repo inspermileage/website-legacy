@@ -80,7 +80,7 @@ class Header extends React.Component {
               <Link to="/construction" className="navbar-item is-tab">
                 Blog
               </Link>
-              <Link to="/construction" className="navbar-item is-tab">
+              <Link to="/contact" className="navbar-item is-tab">
                 Contato
               </Link>
             </div>

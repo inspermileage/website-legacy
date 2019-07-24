@@ -10,19 +10,15 @@ const Partners = () => (
       <div class="container">
         <h1 class="title is-2 block-title-bw">Parceiros</h1>
         <div class="columns is-vcentered">
-          <div class="column is-8">
+          <div class="column">
             <h1 class="subtitle is-5">
               Para alcançar nossos objetivos, contamos com a ajuda de empresas
               que acreditam no potencial do projeto e compartilham a mesma visão
               que nós. Temos orgulho de ser parceiros de:
             </h1>
-          </div>
-          <div class="column is-2">
-            <p>
-              <Link to="/construction" class="button is-primary is-outlined">
-                Programa de parcerias
-              </Link>
-            </p>
+            <Link to="/construction" class="button is-primary is-outlined">
+              Programa de parcerias
+            </Link>
           </div>
         </div>
         <div class="columns is-vcentered">
