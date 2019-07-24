@@ -8,7 +8,7 @@ import SEO from "../components/SEO"
 const ContactPage = () => (
   <Layout>
     <SEO title="Contato" />
-    <section class="hero is-medium">
+    <section class="hero">
       <div class="hero-body">
         <div class="container">
           <h1 class="title is-2 block-title-bw">Contato</h1>
@@ -24,12 +24,12 @@ const ContactPage = () => (
               <div class="columns">
                 <div class="column">
                   <a
-                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    class="button is-primary is-outlined is-fullwidth"
                     href="https://facebook.com/inspermileage"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <span class="icon is-medium">
+                    <span class="icon">
                       <FaFacebook size="fa-2x" />
                     </span>
                     <span>Facebook</span>
@@ -37,12 +37,12 @@ const ContactPage = () => (
                 </div>
                 <div class="column">
                   <a
-                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    class="button is-primary is-outlined is-fullwidth"
                     href="https://instagram.com/inspermileage"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <span class="icon is-medium">
+                    <span class="icon">
                       <FaInstagram size="fa-2x" />
                     </span>
                     <span>Instagram</span>
@@ -50,12 +50,12 @@ const ContactPage = () => (
                 </div>
                 <div class="column">
                   <a
-                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    class="button is-primary is-outlined is-fullwidth"
                     href="https://linkedin.com/company/insper-mileage/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <span class="icon is-medium">
+                    <span class="icon">
                       <FaLinkedin size="fa-2x" />
                     </span>
                     <span>Linkedin</span>
@@ -63,12 +63,12 @@ const ContactPage = () => (
                 </div>
                 <div class="column">
                   <a
-                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    class="button is-primary is-outlined is-fullwidth"
                     href="https://github.com/inspermileage"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <span class="icon is-medium">
+                    <span class="icon">
                       <FaGithub size="fa-2x" />
                     </span>
                     <span>GitHub</span>
@@ -78,10 +78,10 @@ const ContactPage = () => (
               <div class="columns">
                 <div class="column">
                   <a
-                    class="button is-medium is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                    class="button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
                     href="mailto:inspermileage@gmail.com"
                   >
-                    <span class="icon is-medium">
+                    <span class="icon">
                       <FaEnvelope size="fa-2x" />
                     </span>
                     <span>inspermileage@gmail.com</span>
@@ -89,10 +89,10 @@ const ContactPage = () => (
                 </div>
                 <div class="column">
                   <a
-                    class="button is-medium is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                    class="button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
                     href="tel:+5511999217548"
                   >
-                    <span class="icon is-medium">
+                    <span class="icon">
                       <FaPhone size="fa-2x" />
                     </span>
                     <span>+55 11 999217548</span>
