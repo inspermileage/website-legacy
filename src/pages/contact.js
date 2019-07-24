@@ -12,7 +12,7 @@ const ContactPage = () => (
       <div class="hero-body">
         <div class="container">
           <h1 class="title is-2 block-title-bw">Contato</h1>
-          <div class="columns is-vcentered">
+          <div class="columns">
             <div class="column">
               <iframe
                 class="contact-map"
@@ -109,7 +109,7 @@ const ContactPage = () => (
               </h1>
 
               <div class="field is-horizontal">
-                <div class="field-label is-normal">
+                <div class="field-label is-normal align-left">
                   <label class="label">Seus dados</label>
                 </div>
                 <div class="field-body">
@@ -146,7 +146,7 @@ const ContactPage = () => (
                 </div>
               </div>
               <div class="field is-horizontal">
-                <div class="field-label is-normal">
+                <div class="field-label is-normal align-left">
                   <label class="label">Assunto</label>
                 </div>
                 <div class="field-body">
@@ -164,7 +164,7 @@ const ContactPage = () => (
                 </div>
               </div>
               <div class="field is-horizontal">
-                <div class="field-label is-normal">
+                <div class="field-label is-normal align-left">
                   <label class="label">Mensagem</label>
                 </div>
                 <div class="field-body">
@@ -179,7 +179,7 @@ const ContactPage = () => (
                 </div>
               </div>
               <div class="field is-horizontal">
-                <div class="field-label">
+                <div class="field-label align-left">
                   <label class="label">Resposta</label>
                 </div>
                 <div class="field-body">
