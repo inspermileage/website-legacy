@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa"
+import { FaPhone, FaEnvelope } from "react-icons/fa"
 import { FaInstagram, FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa"
 
 import SEO from "../components/SEO"
@@ -14,52 +14,91 @@ const ContactPage = () => (
           <h1 class="title is-2 block-title-bw">Contato</h1>
           <div class="columns is-vcentered">
             <div class="column">
-              <p class="buttons is-centered">
-                <a
-                  class="button is-medium is-primary is-outlined"
-                  href="https://facebook.com/inspermileage"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span class="icon is-medium">
-                    <FaFacebook size="fa-2x" />
-                  </span>
-                  <span>Facebook</span>
-                </a>
-                <a
-                  class="button is-medium is-primary is-outlined"
-                  href="https://instagram.com/inspermileage"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span class="icon is-medium">
-                    <FaInstagram size="fa-2x" />
-                  </span>
-                  <span>Instagram</span>
-                </a>
-                <a
-                  class="button is-medium is-primary is-outlined"
-                  href="https://linkedin.com/company/insper-mileage/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span class="icon is-medium">
-                    <FaLinkedin size="fa-2x" />
-                  </span>
-                  <span>Linkedin</span>
-                </a>
-                <a
-                  class="button is-medium is-primary is-outlined"
-                  href="https://github.com/inspermileage"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span class="icon is-medium">
-                    <FaGithub size="fa-2x" />
-                  </span>
-                  <span>GitHub</span>
-                </a>
-              </p>
+              <iframe
+                class="contact-map"
+                src="https://maps.google.com/maps?q=Insper&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+              ></iframe>
+
+              <div class="columns">
+                <div class="column">
+                  <a
+                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    href="https://facebook.com/inspermileage"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span class="icon is-medium">
+                      <FaFacebook size="fa-2x" />
+                    </span>
+                    <span>Facebook</span>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    href="https://instagram.com/inspermileage"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span class="icon is-medium">
+                      <FaInstagram size="fa-2x" />
+                    </span>
+                    <span>Instagram</span>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    href="https://linkedin.com/company/insper-mileage/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span class="icon is-medium">
+                      <FaLinkedin size="fa-2x" />
+                    </span>
+                    <span>Linkedin</span>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    class="button is-medium is-primary is-outlined is-fullwidth"
+                    href="https://github.com/inspermileage"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span class="icon is-medium">
+                      <FaGithub size="fa-2x" />
+                    </span>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <a
+                    class="button is-medium is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                    href="mailto:inspermileage@gmail.com"
+                  >
+                    <span class="icon is-medium">
+                      <FaEnvelope size="fa-2x" />
+                    </span>
+                    <span>inspermileage@gmail.com</span>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    class="button is-medium is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                    href="tel:+5511999217548"
+                  >
+                    <span class="icon is-medium">
+                      <FaPhone size="fa-2x" />
+                    </span>
+                    <span>+55 11 999217548</span>
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div class="is-divider-vertical" data-content="Ou"></div>
