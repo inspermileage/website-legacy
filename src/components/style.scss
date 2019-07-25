@@ -44,7 +44,7 @@
 }
 
 .block-title-bw {
-  margin: 15px 0 15px;
+  margin: 20px 0 15px;
   white-space: nowrap;
   padding: 5px;
   font-size: 2em;
@@ -53,7 +53,7 @@
 }
 
 .block-title-wb {
-  margin: 15px 0 15px;
+  margin: 20px 0 15px;
   white-space: nowrap;
   padding: 5px;
   font-size: 2em;
@@ -146,8 +146,9 @@
 footer.footer-dark {
   background: $secondary;
   color: white;
+  padding: 2rem 1.5rem 2rem;
   .columns {
-    margin-top: 35px;
+    margin-top: 10px;
   }
   .footer-logo {
     img {
@@ -163,7 +164,7 @@ footer.footer-dark {
       font-size: 1.2rem;
       text-transform: uppercase;
       letter-spacing: 1px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     ul.link-list {
       line-height: 40px;
@@ -177,6 +178,7 @@ footer.footer-dark {
       }
     }
     .level-item {
+      padding-top: 15px;
       .footer-icon {
         color: white;
       }

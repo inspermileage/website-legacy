@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 const config = require("./siteConfig")
 
 module.exports = {
@@ -17,6 +21,14 @@ module.exports = {
         theme_color: config.themeColor,
         display: "standalone",
         icon: config.icon,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GA,
+        head: true,
+        anonymize: true,
       },
     },
     "gatsby-plugin-sass",

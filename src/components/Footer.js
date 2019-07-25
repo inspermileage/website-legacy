@@ -2,6 +2,7 @@ import React from "react"
 import { FaInstagram, FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa"
 import { Link } from "gatsby"
 import icon from "../images/icons/icon.svg"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Modal = ({ children, title, state, toggle }) => (
   <div className={`modal footer-modal ${state ? "is-active" : ""}`}>
@@ -62,18 +63,15 @@ class Footer extends React.Component {
                     <Link to="/construction">Competição</Link>
                   </li>
                   <li>
-                    <Link to="/construction">O projeto</Link>
+                    <Link to="/construction">Projeto</Link>
                   </li>
                   <li>
-                    <Link to="/construction">Quem participa</Link>
-                  </li>
-                  <li>
-                    <Link to="/construction">Parcerias</Link>
+                    <Link to="/construction">Equipe</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="column">
+            {/* <div class="column">
               <div class="footer-column">
                 <div class="footer-header">
                   <h3>Documentação</h3>
@@ -87,13 +85,19 @@ class Footer extends React.Component {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div class="column">
               <div class="footer-column">
                 <div class="footer-header">
                   <h3>Informações</h3>
                 </div>
                 <ul class="link-list">
+                  <li>
+                    <Link to="/construction">Parcerias</Link>
+                  </li>
+                  <li>
+                    <Link to="/construction">Midia Kit</Link>
+                  </li>
                   <li>
                     <a onClick={this.toggleTermsModal}>Termos e condições</a>
                   </li>
@@ -109,9 +113,17 @@ class Footer extends React.Component {
               <div class="footer-column">
                 <div class="footer-header">
                   <h3>Social</h3>
+                  <ul class="link-list">
+                    <li>
+                      <Link to="/construction">Blog</Link>
+                    </li>
+                    <li>
+                      <Link to="/construction">Newsletter</Link>
+                    </li>
+                  </ul>
                   <nav class="level is-mobile">
                     <div class="level-left">
-                      <a
+                      <OutboundLink
                         class="level-item"
                         href="https://facebook.com/inspermileage"
                         rel="noopener noreferrer"
@@ -122,8 +134,8 @@ class Footer extends React.Component {
                             <FaFacebook class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
-                      </a>
-                      <a
+                      </OutboundLink>
+                      <OutboundLink
                         class="level-item"
                         href="https://instagram.com/inspermileage"
                         rel="noopener noreferrer"
@@ -134,8 +146,9 @@ class Footer extends React.Component {
                             <FaInstagram class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
-                      </a>
-                      <a
+                      </OutboundLink>
+
+                      <OutboundLink
                         class="level-item"
                         href="https://linkedin.com/company/insper-mileage/"
                         rel="noopener noreferrer"
@@ -146,8 +159,8 @@ class Footer extends React.Component {
                             <FaLinkedin class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
-                      </a>
-                      <a
+                      </OutboundLink>
+                      <OutboundLink
                         class="level-item"
                         href="https://github.com/inspermileage"
                         rel="noopener noreferrer"
@@ -158,7 +171,7 @@ class Footer extends React.Component {
                             <FaGithub class="footer-icon" size="fa-2x" />
                           </a>
                         </span>
-                      </a>
+                      </OutboundLink>
                     </div>
                   </nav>
                 </div>

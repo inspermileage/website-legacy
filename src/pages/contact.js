@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { FaPhone, FaEnvelope } from "react-icons/fa"
+import { FaWhatsapp, FaEnvelope } from "react-icons/fa"
 import { FaInstagram, FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa"
 
 import SEO from "../components/SEO"
@@ -93,7 +93,7 @@ const ContactPage = () => (
                     href="tel:+5511999217548"
                   >
                     <span class="icon">
-                      <FaPhone size="fa-2x" />
+                      <FaWhatsapp size="fa-2x" />
                     </span>
                     <span>+55 11 999217548</span>
                   </a>
