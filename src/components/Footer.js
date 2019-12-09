@@ -115,6 +115,9 @@ class Footer extends React.Component {
                   <h3>Social</h3>
                   <ul class="link-list">
                     <li>
+                      <Link to="/contact">Contato</Link>
+                    </li>
+                    <li>
                       <Link to="/construction">Blog</Link>
                     </li>
                     <li>
