@@ -16,7 +16,7 @@ const Partners = () => (
               que acreditam no potencial do projeto e compartilham a mesma visão
               que nós. Temos orgulho de ser parceiros de:
             </h1>
-            <Link to="/construction" class="button is-primary is-outlined">
+            <Link to="/partners" class="button is-primary is-outlined">
               Programa de parcerias
             </Link>
           </div>
