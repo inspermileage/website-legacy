@@ -69,7 +69,7 @@ class Header extends React.Component {
                   <Link to="/construction" className="navbar-item">
                     Projeto
                   </Link>
-                  <Link to="/construction" className="navbar-item">
+                  <Link to="2020/team" className="navbar-item">
                     Equipe
                   </Link>
                 </div>

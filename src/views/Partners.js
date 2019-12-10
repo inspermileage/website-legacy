@@ -23,13 +23,13 @@ const Partners = () => (
         </div>
         <div class="columns is-vcentered">
           <div class="column is-flex is-horizontal-center">
-            <img src={InsperLogo} alt="Software e Controle" />
+            <img src={InsperLogo} alt="Logo do Insper" />
           </div>
           <div class="column is-flex is-horizontal-center">
-            <img src={AtteiLogo} alt="Software e Controle" />
+            <img src={AtteiLogo} alt="Logo do Attei" />
           </div>
           <div class="column is-flex is-horizontal-center">
-            <img src={AffariLogo} alt="Software e Controle" />
+            <img src={AffariLogo} alt="Logo do Affari" />
           </div>
         </div>
       </div>

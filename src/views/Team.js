@@ -23,7 +23,7 @@ const Team = () => (
                 também de habilitar a integração de alunos de diferentes cursos.
               </h1>
               <p>
-                <Link to="/construction" class="button is-white is-outlined">
+                <Link to="/2020/team" class="button is-white is-outlined">
                   Conheça a equipe
                 </Link>
               </p>
@@ -37,21 +37,20 @@ const Team = () => (
                   <img src={AdminIcon} alt="Administrativo" />
                 </figure>
                 <h5 class="subtitle is-5">Administrativo</h5>
-                <p>
-                  Captação de recursos, recursos humanos, gestão financeira,
-                  marketing e logística
-                </p>
               </div>
 
               <div class="feature-card ">
                 <figure class="image is-64x64">
                   <img src={SoftControlIcon} alt="Software e Controle" />
                 </figure>
-                <h5 class="subtitle is-5">Software e Controle</h5>
-                <p>
-                  Processamento de dados, tecnologia de veículo semi-autônomo e
-                  controle de eficiência energética
-                </p>
+                <h5 class="subtitle is-5">Software</h5>
+              </div>
+
+              <div class="feature-card ">
+                <figure class="image is-64x64">
+                  <img src={SoftControlIcon} alt="Software e Controle" />
+                </figure>
+                <h5 class="subtitle is-5">Controle</h5>
               </div>
 
               <div class="feature-card ">
@@ -59,10 +58,6 @@ const Team = () => (
                   <img src={MechanicIcon} alt="Mecânica" />
                 </figure>
                 <h5 class="subtitle is-5">Mecânica</h5>
-                <p>
-                  CADs, fabricação de componentes, desenho do monocoque,
-                  transmissão, direção e freios
-                </p>
               </div>
 
               <div class="feature-card ">
@@ -70,10 +65,6 @@ const Team = () => (
                   <img src={EletronicIcon} alt="Eletrônica" />
                 </figure>
                 <h5 class="subtitle is-5">Eletrônica</h5>
-                <p>
-                  Projeto de baterias, sistemas eficientes de acionamento
-                  elétrico e instrumentação
-                </p>
               </div>
 
               <div class="padder-card " />

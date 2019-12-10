@@ -104,7 +104,7 @@
   padding: 30px 16px;
   margin-right: 2%;
   border: 1px solid white;
-  width: 23.5%;
+  width: 18.5%;
   border-radius: 4px;
   display: inline-block;
   border: 1px solid #dedede;
@@ -120,8 +120,8 @@
     display: none;
   }
   .scrolling-wrapper-flexbox .feature-card {
-    width: 45%;
-    height: 250px;
+    width: 40%;
+    height: 200px;
   }
   .scrolling-wrapper-flexbox .padder-card {
     display: inline-block;
@@ -130,8 +130,8 @@
 
 @media screen and (max-width: 540px) {
   .scrolling-wrapper-flexbox .feature-card {
-    width: 90%;
-    height: 250px;
+    width: 78%;
+    height: 190px;
   }
 }
 
