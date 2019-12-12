@@ -137,7 +137,7 @@ class Footer extends React.Component {
                                                     <a>
                                                         <FaFacebook
                                                             class="footer-icon"
-                                                            size="fa-2x"
+                                                            size="25px"
                                                         />
                                                     </a>
                                                 </span>
@@ -152,7 +152,7 @@ class Footer extends React.Component {
                                                     <a>
                                                         <FaInstagram
                                                             class="footer-icon"
-                                                            size="fa-2x"
+                                                            size="25px"
                                                         />
                                                     </a>
                                                 </span>
@@ -168,7 +168,7 @@ class Footer extends React.Component {
                                                     <a>
                                                         <FaLinkedin
                                                             class="footer-icon"
-                                                            size="fa-2x"
+                                                            size="25px"
                                                         />
                                                     </a>
                                                 </span>
@@ -183,7 +183,7 @@ class Footer extends React.Component {
                                                     <a>
                                                         <FaGithub
                                                             class="footer-icon"
-                                                            size="fa-2x"
+                                                            size="25px"
                                                         />
                                                     </a>
                                                 </span>

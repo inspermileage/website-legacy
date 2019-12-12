@@ -7,7 +7,12 @@ import SEO from "../components/SEO"
 
 const Project = () => (
     <Layout>
-        <SEO title="Projeto" />
+        <SEO
+            title="Projeto"
+            description="Insper Mileage projeto"
+            lang="pt-br"
+            meta="Insper"
+        />
         <section class="hero is-medium">
             <div class="hero-body">
                 <div class="container">

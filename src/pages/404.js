@@ -6,7 +6,12 @@ import SEO from "../components/SEO"
 
 const NotFoundPage = () => (
     <Layout>
-        <SEO title="404" />
+        <SEO
+            title="404"
+            description="Insper Mileage Not Found"
+            lang="pt-br"
+            meta="Insper"
+        />
         <section class="hero is-medium">
             <div class="hero-body">
                 <div class="container">

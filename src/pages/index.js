@@ -11,7 +11,12 @@ import Partners from "../views/Partners"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Início" />
+        <SEO
+            title="Início"
+            description="Insper Mileage"
+            lang="pt-br"
+            meta="Insper"
+        />
         <Intro />
         <About />
         <Competition />

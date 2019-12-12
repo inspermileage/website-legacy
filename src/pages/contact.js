@@ -7,7 +7,12 @@ import SEO from "../components/SEO"
 
 const ContactPage = () => (
     <Layout>
-        <SEO title="Contato" />
+        <SEO
+            title="Contato"
+            description="Insper Mileage contato"
+            lang="pt-br"
+            meta="Insper"
+        />
         <section class="hero">
             <div class="hero-body">
                 <div class="container">

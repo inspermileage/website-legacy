@@ -6,7 +6,12 @@ import SEO from "../components/SEO"
 
 const ConstructionPage = () => (
     <Layout>
-        <SEO title="Oops..." />
+        <SEO
+            title="Oops..."
+            description="Insper Mileage construnction"
+            lang="pt-br"
+            meta="Insper"
+        />
         <section class="hero is-medium">
             <div class="hero-body">
                 <div class="container">
