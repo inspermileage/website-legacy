@@ -10,15 +10,15 @@ import Team from "../views/Team"
 import Partners from "../views/Partners"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Início" />
-    <Intro />
-    <About />
-    <Competition />
-    <Project />
-    <Team />
-    <Partners />
-  </Layout>
+    <Layout>
+        <SEO title="Início" />
+        <Intro />
+        <About />
+        <Competition />
+        <Project />
+        <Team />
+        <Partners />
+    </Layout>
 )
 
 export default IndexPage
