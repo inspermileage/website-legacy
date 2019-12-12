@@ -199,3 +199,58 @@ footer.footer-dark {
 .align-left {
   text-align: left;
 }
+
+.names {
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.office{
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.images-team{
+  display: flex;
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.titles-team{
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.departaments {
+  z-index: 9;
+  background: white;
+  height: 30rem;
+  flex: 0 0 auto;
+  padding: 30px 16px;
+  margin-right: 2%;
+  border: 1px solid white;
+  width: 50%; 
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #dedede;
+  text-align: center;
+  position: relative;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: justify;
+}
