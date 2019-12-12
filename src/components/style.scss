@@ -60,10 +60,79 @@
   margin: 20px 0 15px;
   white-space: nowrap;
   padding: 5px;
-  font-size: 0.1rem;
+  font-size: 1.5rem;
   width: min-content;
   border: 2px solid $secondary;
 
+}
+.texto{
+  
+  text-align: center;
+}
+
+.platina{
+
+display: flex;
+font-size: 2rem;
+justify-content: center;
+
+
+}
+
+.teste{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.scrolling{
+
+  padding: 10px 50px;
+  display: flex;
+  overflow: visible;
+  overflow-x: auto;
+  width: 65%;
+  border-width: 2rem;
+}
+
+.card{
+
+  margin: 2rem;
+  border-radius: 4px;
+  padding: 3rem;
+
+}
+
+
+.alinhamento{
+
+display: flex;
+justify-content: center;
+}
+
+.introdução{
+
+  display: flex;
+  justify-content: center;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 2rem;
+
+}
+
+.image1{
+
+  width: 18rem;
+  margin-left: 8rem;
+ 
+  
+}
+.texto1{
+
+  margin-top: 1rem;
+  text-align: start;
 }
 
 .block-title-wb {
@@ -75,6 +144,15 @@
   border: 4px solid white;
   color: white;
 }
+
+
+.titulo{
+
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
 
 .SectionBlock #competitionAngled {
   width: 100%;
@@ -139,6 +217,14 @@
   }
   .scrolling-wrapper-flexbox .padder-card {
     display: inline-block;
+  }
+
+  .texto1{
+    font-size: smaller;
+
+  }
+  .image{
+    width: 10rem;
   }
 }
 

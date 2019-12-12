@@ -4,6 +4,7 @@ import InsperLogo from "../images/partners/insper.svg"
 import AffariLogo from "../images/partners/affari.svg"
 import AtteiLogo from "../images/partners/ateei.png"
 import Eurobikelogo from "../images/partners/eurobike.png"
+import Energisalogo from "../images/partners/energisa.jpg"
 import SEO from "../components/SEO"
 import "../components/partners.scss"
 
@@ -22,30 +23,26 @@ const partners = () => (
                 cada vez mais próximos de atingí-lo.  </p>
         </div>
        </div>
-       <div class="hero-body">
-            <div class="container">
-            <h1 class="title is-5 block-title-bwa"> Se torne um parceiro</h1> 
-            </div>
-        </div>     
+       <div class="tipo_ parceria">
+           <h1 class="platina"> Categoria Platina</h1> 
+        </div>
 
-        <div class="has-horizontal-scroll has-text-centered">
-            <div class="scrolling-wrapper-flexbox"> 
-                <div class="feature-card ">
-                    <figure class="image is-64x64">
+        <div class="teste">
+            <div class="scrolling"> 
+                <div class="card ">
+                    <figure class="image">
                         <a href="https://www.eurobike.com.br"> <img src={Eurobikelogo} alt="Eurobike"  /> </a>
                     </figure>
-                    <h5 class="subtitle is-5">Eurobike</h5>
-                    <p>
+                    <p class= "texto1">
                      Criada em 2002, a eurobike é uma rede de concessionárias especializada em veículos premium e serviços personalizados
                      de alta qualidade. Seu foco é fornecer ao consumidor a mellhor experiência possível dentro do setor automobilístico.
                     </p>
                 </div>
-                <div class="feature-card ">
-                    <figure class="image is-64x64">
+                <div class="card ">
+                    <figure class="image">
                       <a href="https://www.ateei.com.br/">   <img src={AtteiLogo} alt="Ateei" /> </a> 
                     </figure>
-                    <h5 class="subtitle is-5">Ateei </h5>
-                    <p>
+                    <p class= "texto1"> 
                      A Ateei Group é um grupo visto pelo mercado como referência em sua área. Ela tem como missão produzir
                      placas e materiais eletrônicos de forma acessível a todos. Além disso, a Ateei realiza soluções de eletrônica com alta eficiência 
                      para terceiros.
@@ -53,7 +50,28 @@ const partners = () => (
                 </div>
             </div> 
         </div>  
+        <div class="tipo_ parceria">
+           <h1 class="platina"> Categoria Ouro</h1> 
+        </div>
+        <div class="teste">
+            <div class="scrolling"> 
+                <div class="card">
+                    <figure class="image1">
+                        <a href="https://www.energisa.com.br/"> <img  src={Energisalogo} alt="Energisa"  /> </a>
+                    </figure>
+                    <p class= "texto">
+                        Uma das maiores distribuidoras de energia elétrica do país, a Energisa é responsável por proporcionar
+                        ao consumidor soluções inovadoras e sustentáveis, buscando sempre facilitar a vida de seus clientes.
+                    </p>
+                </div>
+            </div>    
+        </div>        
 
+        <div class="hero-body">
+            <div class="alinhamento">
+            <h1 class="block-title-bwa"> Se torne um parceiro</h1> 
+            </div>
+        </div>  
 
 
         <div class="apoio">
