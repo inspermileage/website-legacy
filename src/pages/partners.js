@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import InsperLogo from "../images/partners/insper.svg"
 import AffariLogo from "../images/partners/affari.svg"
@@ -6,7 +7,7 @@ import AtteiLogo from "../images/partners/ateei.png"
 import Eurobikelogo from "../images/partners/eurobike.png"
 import Energisalogo from "../images/partners/energisa.jpg"
 import SEO from "../components/SEO"
-import "../components/partners.scss"
+
 
 const partners = () => (
   <Layout>
@@ -23,14 +24,14 @@ const partners = () => (
                 cada vez mais próximos de atingí-lo.  </p>
         </div>
        </div>
-       <div class="tipo_ parceria">
-           <h1 class="platina"> Categoria Platina</h1> 
+       <div class="tipo_parceria">
+           <h1 class="cat_part"> Categoria Platina</h1> 
         </div>
 
         <div class="teste">
             <div class="scrolling"> 
-                <div class="card ">
-                    <figure class="image">
+                <div class="card">
+                    <figure class="image2">
                         <a href="https://www.eurobike.com.br"> <img src={Eurobikelogo} alt="Eurobike"  /> </a>
                     </figure>
                     <p class= "texto1">
@@ -38,8 +39,8 @@ const partners = () => (
                      de alta qualidade. Seu foco é fornecer ao consumidor a mellhor experiência possível dentro do setor automobilístico.
                     </p>
                 </div>
-                <div class="card ">
-                    <figure class="image">
+                <div class="card">
+                    <figure class="image2">
                       <a href="https://www.ateei.com.br/">   <img src={AtteiLogo} alt="Ateei" /> </a> 
                     </figure>
                     <p class= "texto1"> 
@@ -50,26 +51,30 @@ const partners = () => (
                 </div>
             </div> 
         </div>  
-        <div class="tipo_ parceria">
-           <h1 class="platina"> Categoria Ouro</h1> 
+        <div class="tipo_parceria">
+           <h1 class="cat_part"> Categoria Ouro</h1> 
         </div>
         <div class="teste">
             <div class="scrolling"> 
                 <div class="card">
                     <figure class="image1">
-                        <a href="https://www.energisa.com.br/"> <img  src={Energisalogo} alt="Energisa"  /> </a>
+                        <a href="https://www.energisa.com.br/"> <img src={Energisalogo} alt="Energisa"  /> </a>
                     </figure>
-                    <p class= "texto">
+                    <div class= "text2">   
+                        <p class= "texto2">
                         Uma das maiores distribuidoras de energia elétrica do país, a Energisa é responsável por proporcionar
                         ao consumidor soluções inovadoras e sustentáveis, buscando sempre facilitar a vida de seus clientes.
-                    </p>
-                </div>
+                        </p> 
+                    </div>     
+                </div>           
             </div>    
         </div>        
 
         <div class="hero-body">
             <div class="alinhamento">
-            <h1 class="block-title-bwa"> Se torne um parceiro</h1> 
+            <Link to="/contact" class="button is-primary is-outlined">  
+                <h1 class="parceria"> Se torne um parceiro</h1>  
+            </Link> 
             </div>
         </div>  
 
