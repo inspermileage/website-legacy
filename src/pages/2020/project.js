@@ -2,21 +2,28 @@ import React from "react"
 import Layout from "../../components/Layout"
 import ImageGallery from "react-image-gallery"
 
-import bolt_sketch from "../../images/bolt_sketch.svg"
 import SEO from "../../components/SEO"
+
+import prototype_sketch from "../../images/2020/project/prototype-sketch.png"
+import prototype1 from "../../images/2020/project/prototype-1.png"
+import prototype1_thumb from "../../images/2020/project/prototype-1-thumb.png"
+import prototype2 from "../../images/2020/project/prototype-2.png"
+import prototype2_thumb from "../../images/2020/project/prototype-2-thumb.png"
+import prototype3 from "../../images/2020/project/prototype-3.png"
+import prototype3_thumb from "../../images/2020/project/prototype-3-thumb.png"
 
 const images = [
     {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/250/150/",
+        original: prototype1,
+        thumbnail: prototype1_thumb,
     },
     {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
+        original: prototype2,
+        thumbnail: prototype2_thumb,
     },
     {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
+        original: prototype3,
+        thumbnail: prototype3_thumb,
     },
 ]
 
@@ -62,7 +69,7 @@ const Project = () => (
                         <div class="column">
                             <figure class="image">
                                 <img
-                                    src={bolt_sketch}
+                                    src={prototype_sketch}
                                     alt="Rascunho do protótipo"
                                 />
                             </figure>
@@ -79,36 +86,49 @@ const Project = () => (
                             <table class="table">
                                 <tbody>
                                     <tr>
-                                        <th>Velocidade máxima</th>
-                                        <td>__ km/h</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Aceleração</th>
-                                        <td>0-100 km/h em __s</td>
-                                    </tr>
-                                    <tr>
                                         <th>Autonomia</th>
                                         <td>__ km</td>
                                     </tr>
                                     <tr>
-                                        <th>Eficiência</th>
-                                        <td>__ kWh/km</td>
+                                        <th>Consumo</th>
+                                        <td>170km/kWh</td>
                                     </tr>
                                     <tr>
-                                        <th>Baterias</th>
-                                        <td>48V 4000 mAh</td>
+                                        <th>Bateria</th>
+                                        <td>24V 5000mAh</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Motor</th>
+                                        <td>Brushless 24V 350W</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sistema de direção</th>
+                                        <td>
+                                            Geometria de Ackerman com Pitman Arm
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Transmissão</th>
+                                        <td>18:1, fixa e por engrenagens</td>
                                     </tr>
                                     <tr>
                                         <th>Chassi</th>
+                                        <td>Tubular em alumínio</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Carenagem</th>
                                         <td>
-                                            Tubular de alumínio + carenagem de
-                                            fibra de carbono
+                                            Fibra de carbono e policarbonato
                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Peso</th>
+                                        <td>30 kg</td>
                                     </tr>
                                     <tr>
                                         <th>Telemetria</th>
                                         <td>
-                                            Aplicativo React Native + Dashbord
+                                            Em tempo real com dashboard na nuvem
                                         </td>
                                     </tr>
                                 </tbody>
