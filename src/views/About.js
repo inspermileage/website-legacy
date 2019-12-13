@@ -35,7 +35,7 @@ const About = () => (
                         </h1>
                         <p>
                             <Link
-                                to="about"
+                                to="/about"
                                 class="button is-primary is-outlined"
                             >
                                 Conheça mais

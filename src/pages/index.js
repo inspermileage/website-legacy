@@ -15,7 +15,13 @@ const IndexPage = () => (
             title="Início"
             description="Insper Mileage"
             lang="pt-br"
-            meta="Insper"
+            meta={[
+                `Insper`,
+                `projeto`,
+                `protótipo`,
+                `Insper Mileage`,
+                `Shell Eco-Marathon`,
+            ]}
         />
         <Intro />
         <About />

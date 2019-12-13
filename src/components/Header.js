@@ -6,7 +6,7 @@ const NavbarBurger = props => (
     <a
         role="button"
         onClick={props.toggleMenu}
-        class={`navbar-burger ${props.active ? "is-active" : ""}`}
+        className={`navbar-burger ${props.active ? "is-active" : ""}`}
         aria-label="menu"
         aria-expanded="false"
     >

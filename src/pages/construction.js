@@ -10,7 +10,13 @@ const ConstructionPage = () => (
             title="Oops..."
             description="Insper Mileage construnction"
             lang="pt-br"
-            meta="Insper"
+            meta={[
+                `Insper`,
+                `projeto`,
+                `protótipo`,
+                `Insper Mileage`,
+                `Shell Eco-Marathon`,
+            ]}
         />
         <section class="hero is-medium">
             <div class="hero-body">

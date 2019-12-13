@@ -10,7 +10,13 @@ const Project = () => (
             title="Protótipo Bolt"
             description="Insper Mileage protótipo Bolt"
             lang="pt-br"
-            meta="Insper"
+            meta={[
+                `Insper`,
+                `projeto`,
+                `protótipo`,
+                `Insper Mileage`,
+                `Shell Eco-Marathon`,
+            ]}
         />
         <section class="hero is-medium">
             <div class="hero-body">

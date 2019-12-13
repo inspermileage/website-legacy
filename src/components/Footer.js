@@ -134,12 +134,10 @@ class Footer extends React.Component {
                                                 target="_blank"
                                             >
                                                 <span className="icon">
-                                                    <a>
-                                                        <FaFacebook
-                                                            class="footer-icon"
-                                                            size="25px"
-                                                        />
-                                                    </a>
+                                                    <FaFacebook
+                                                        class="footer-icon"
+                                                        size="25px"
+                                                    />
                                                 </span>
                                             </OutboundLink>
                                             <OutboundLink
@@ -149,12 +147,10 @@ class Footer extends React.Component {
                                                 target="_blank"
                                             >
                                                 <span className="icon">
-                                                    <a>
-                                                        <FaInstagram
-                                                            class="footer-icon"
-                                                            size="25px"
-                                                        />
-                                                    </a>
+                                                    <FaInstagram
+                                                        class="footer-icon"
+                                                        size="25px"
+                                                    />
                                                 </span>
                                             </OutboundLink>
 
@@ -165,12 +161,10 @@ class Footer extends React.Component {
                                                 target="_blank"
                                             >
                                                 <span className="icon">
-                                                    <a>
-                                                        <FaLinkedin
-                                                            class="footer-icon"
-                                                            size="25px"
-                                                        />
-                                                    </a>
+                                                    <FaLinkedin
+                                                        class="footer-icon"
+                                                        size="25px"
+                                                    />
                                                 </span>
                                             </OutboundLink>
                                             <OutboundLink
@@ -180,12 +174,10 @@ class Footer extends React.Component {
                                                 target="_blank"
                                             >
                                                 <span className="icon">
-                                                    <a>
-                                                        <FaGithub
-                                                            class="footer-icon"
-                                                            size="25px"
-                                                        />
-                                                    </a>
+                                                    <FaGithub
+                                                        class="footer-icon"
+                                                        size="25px"
+                                                    />
                                                 </span>
                                             </OutboundLink>
                                         </div>

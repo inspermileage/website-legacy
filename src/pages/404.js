@@ -10,7 +10,13 @@ const NotFoundPage = () => (
             title="404"
             description="Insper Mileage Not Found"
             lang="pt-br"
-            meta="Insper"
+            meta={[
+                `Insper`,
+                `projeto`,
+                `protótipo`,
+                `Insper Mileage`,
+                `Shell Eco-Marathon`,
+            ]}
         />
         <section class="hero is-medium">
             <div class="hero-body">
