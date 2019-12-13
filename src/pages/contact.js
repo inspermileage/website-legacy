@@ -96,7 +96,7 @@ const ContactPage = () => (
                                         <span class="icon">
                                             <FaEnvelope size="fa-2x" />
                                         </span>
-                                        <span>inspermileage@gmail.com</span>
+                                        <span>insper.mileage@gmail.com</span>
                                     </a>
                                 </div>
                                 <div class="column">
