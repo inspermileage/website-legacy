@@ -15,11 +15,11 @@ const partners = () => (
    
     <section class="hero_is-medium">
       <div class="hero-body">
-        <div class="container">
+        <div class="container-titulo">
            <h1 class="title is-2 block-title-bw"> Parcerias</h1> 
         </div>
         <div class= "introdução">
-            <p class= "texto"> Desde a criação do projeto, em 2018, temos como objetivo criar um carro sustentável e eficiente, 
+            <p class= "texto_intro"> Desde a criação do projeto, em 2018, temos como objetivo criar um carro sustentável e eficiente, 
                 que possa participar de diversas competições. É através do apoio de nossas parcerias que estamos
                 cada vez mais próximos de atingí-lo.  </p>
         </div>
@@ -28,22 +28,22 @@ const partners = () => (
            <h1 class="cat_part"> Categoria Platina</h1> 
         </div>
 
-        <div class="teste">
+        <div class="patrocinadores">
             <div class="scrolling"> 
                 <div class="card">
-                    <figure class="image2">
+                    <figure class="image_platina">
                         <a href="https://www.eurobike.com.br"> <img src={Eurobikelogo} alt="Eurobike"  /> </a>
                     </figure>
-                    <p class= "texto1">
+                    <p class= "desc_platina">
                      Criada em 2002, a eurobike é uma rede de concessionárias especializada em veículos premium e serviços personalizados
                      de alta qualidade. Seu foco é fornecer ao consumidor a mellhor experiência possível dentro do setor automobilístico.
                     </p>
                 </div>
                 <div class="card">
-                    <figure class="image2">
+                    <figure class="image_platina">
                       <a href="https://www.ateei.com.br/">   <img src={AtteiLogo} alt="Ateei" /> </a> 
                     </figure>
-                    <p class= "texto1"> 
+                    <p class= "desc_platina"> 
                      A Ateei Group é um grupo visto pelo mercado como referência em sua área. Ela tem como missão produzir
                      placas e materiais eletrônicos de forma acessível a todos. Além disso, a Ateei realiza soluções de eletrônica com alta eficiência 
                      para terceiros.
@@ -54,14 +54,14 @@ const partners = () => (
         <div class="tipo_parceria">
            <h1 class="cat_part"> Categoria Ouro</h1> 
         </div>
-        <div class="teste">
+        <div class="patrocinadores">
             <div class="scrolling"> 
                 <div class="card">
-                    <figure class="image1">
+                    <figure class="image_ouro">
                         <a href="https://www.energisa.com.br/"> <img src={Energisalogo} alt="Energisa"  /> </a>
                     </figure>
-                    <div class= "text2">   
-                        <p class= "texto2">
+                    <div class= "container_desc_ouro">   
+                        <p class= "desc_ouro">
                         Uma das maiores distribuidoras de energia elétrica do país, a Energisa é responsável por proporcionar
                         ao consumidor soluções inovadoras e sustentáveis, buscando sempre facilitar a vida de seus clientes.
                         </p> 
@@ -71,7 +71,7 @@ const partners = () => (
         </div>        
 
         <div class="hero-body">
-            <div class="alinhamento">
+            <div class="alinhamento_botao">
             <Link to="/contact" class="button is-primary is-outlined">  
                 <h1 class="parceria"> Se torne um parceiro</h1>  
             </Link> 
@@ -80,8 +80,8 @@ const partners = () => (
 
 
         <div class="apoio">
-            <div class="container">
-            <h1 class="titulo"> Apoio:</h1>
+            <div class="container_apoio">
+            <h1 class="titulo_apoio"> Apoio:</h1>
             </div>
         </div>  
         <div class="columns is-vcentered">

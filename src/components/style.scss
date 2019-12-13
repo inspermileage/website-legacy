@@ -143,13 +143,13 @@ justify-content: center;
 
 }
 
-.teste{
+.patrocinadores{
 
   display: flex;
   justify-content: space-around;
 }
 
-.text2{
+.container_desc_ouro{
 
   max-width: 13rem;
   font-size: 0.9rem;
@@ -175,14 +175,17 @@ justify-content: center;
 
 }
 
-
-.alinhamento{
+.container-titulo{
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+}
+.alinhamento_botao{
 
 display: flex;
 justify-content: center;
 }
 
-.introdução{
+.texto_intro{
 
   display: flex;
   justify-content: center;
@@ -192,11 +195,11 @@ justify-content: center;
 
 }
 
-.image1{
+.image_ouro{
 
   width: 12rem;
 }
-.texto1{
+.desc_platina{
 
   margin-top: 1rem;
   text-align: start;
@@ -214,17 +217,21 @@ justify-content: center;
 }
 
 
-.titulo{
+.titulo_apoio{
 
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 3rem;
 }
 
-.image2{
+.image_platina{
 
   width: 20rem;
 }
 
+.container_apoio{
+
+  margin-left: 3rem;
+}
 
 
 
@@ -240,7 +247,7 @@ justify-content: center;
     display: inline-block;
   }
 
-  .texto1, .texto2{
+  .desc_platina, .desc_ouro{
     font-size: smaller;
 
   }
@@ -248,11 +255,11 @@ justify-content: center;
     width: 10rem;
   }
 
-  .image1{
+  .image_ouro{
     width: 10rem;
   }
 
-  .image2{
+  .image_platina{
 
     width: 14rem;
   }
@@ -266,11 +273,11 @@ justify-content: center;
       width:100%;
     }
 
-  .text2{
+  .container_desc_ouro{
     max-width: 30rem;
 
   }  
-  .texto1{
+  .desc_platina{
 
     max-width: 30rem;
   }
