@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 
 import SEO from "../../components/SEO"
 import icon from "../../images/icons/icon.svg"
+import { Link } from "gatsby"
 
 import SoftControlIcon from "../../images/icons/softcontrole.svg"
 import EletronicIcon from "../../images/icons/eletronica.svg"
@@ -10,7 +11,7 @@ import MechanicIcon from "../../images/icons/mecanica.svg"
 
 const EquipePage = () => (
   <Layout>
-    <SEO title="Oops..." />
+    <SEO title="Equipe 2020" />
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
@@ -75,8 +76,8 @@ const EquipePage = () => (
                   <img src={SoftControlIcon} alt="Software" />
                 </figure>
                 <h5 class="is-size-4 names">Software</h5>
-                <h6 class="is-size-5 descriptions">Área responsável por estabelecer o meio de comunicação dos dados com o piloto, para que possa auxiliá-lo na pista. Ademais, 
-                também mantenedor </h6>
+                <h6 class="is-size-5">Área responsável por estabelecer o meio de comunicação dos dados com o piloto, para que possa auxiliá-lo na pista. Ademais, 
+                também mantenedor deste site. </h6>
               </div>
 
               <div class="departaments">
@@ -84,7 +85,7 @@ const EquipePage = () => (
                   <img src={SoftControlIcon} alt="Controle" />
                 </figure>
                 <h5 class="is-size-4 names">Controle</h5>
-                <h6 class="is-size-5 descriptions">A área de controle é responsável por fazer isso aquilo e mais isso.</h6>
+                <h6 class="is-size-5">A área de controle é responsável por fazer isso aquilo e mais isso.</h6>
               </div>
               <div class="padder-card " />
             </div>
@@ -97,7 +98,7 @@ const EquipePage = () => (
                   <img src={MechanicIcon} alt="Mecânica" />
                 </figure>
                 <h5 class="is-size-4 names">Mecânica</h5>
-                <h6 class="is-size-5 descriptions">A área de mecânica é responsável por fazer isso aquilo e mais isso.</h6>
+                <h6 class="is-size-5">A área de mecânica é responsável pelo chassi do carro e blabla.</h6>
               </div>
 
               <div class="departaments">
@@ -105,9 +106,9 @@ const EquipePage = () => (
                   <img src={EletronicIcon} alt="Eletrônica" />
                 </figure>
                 <h5 class="is-size-4 names">Eletrônica</h5>
-                <h6 class="is-size-5 descriptions">A área de eletrônica é responsável por fazer isso aquilo e mais isso.</h6>
+                <h6 class="is-size-5">A área de eletrônica é responsável por fazer isso aquilo e mais isso.</h6>
               </div>
-              <div class="padder-card " />
+              <div class="padder-card"/>
             </div>
           </div>
         </div>
