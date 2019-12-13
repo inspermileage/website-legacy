@@ -13,9 +13,9 @@ const Intro = () => (
                     <div class="columns">
                         <div class="column is-9">
                             <h2 class="title is-2 has-text-white">
-                                Bringing Insper students closer to a real
-                                situation of R&D in sustainable tech for
-                                mobility.
+                                Aproximando estudantes do Insper de uma situação
+                                real de pesquisa e desenvolvimento de
+                                tecnologias voltadas para mobilidade sustentável
                             </h2>
                             <p>
                                 <AnchorLink

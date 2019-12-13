@@ -3,15 +3,6 @@ import car from "../images/car.svg"
 import { Link } from "gatsby"
 
 const About = () => (
-    //       Somos um projeto sem fins lucrativos, formado por alunos do Insper,
-    //       voltado ao desenvolvimento de tecnologias sustentáveis de mobilidade.
-    //       Nosso principal objetivo é aproximar os membros do projeto de uma situação
-    //       real de pesquisa e desenvolvimento.
-
-    //       Competimos no maior evento universitário de eficiência energética do
-    //       mundo, a Shell Eco-Marathon, onde temos a oportunidade de testar nosso
-    //       projeto e validar nossas pesquisas.
-
     <section id="about" class="hero is-medium">
         <div class="hero-body">
             <div class="container">
