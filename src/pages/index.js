@@ -10,15 +10,26 @@ import Team from "../views/Team"
 import Partners from "../views/Partners"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Início" />
-    <Intro />
-    <About />
-    <Competition />
-    <Project />
-    <Team />
-    <Partners />
-  </Layout>
+    <Layout>
+        <SEO
+            title="Início"
+            description="Insper Mileage"
+            lang="pt-br"
+            meta={[
+                `Insper`,
+                `projeto`,
+                `protótipo`,
+                `Insper Mileage`,
+                `Shell Eco-Marathon`,
+            ]}
+        />
+        <Intro />
+        <About />
+        <Competition />
+        <Project />
+        <Team />
+        <Partners />
+    </Layout>
 )
 
 export default IndexPage
