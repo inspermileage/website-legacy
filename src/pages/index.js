@@ -37,7 +37,7 @@ const IndexPage = () => (
                         </div>
                         <div class="tile is-child">
                             <Link to="/project">
-                                <article class="tile is-child notification is-primary project-tile-bg">
+                                <article class="tile is-child notification is-primary projeto-tile-bg">
                                     <h1 class="title is-2 block-title-wb">
                                         O projeto
                                     </h1>
