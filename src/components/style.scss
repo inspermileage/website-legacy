@@ -203,6 +203,7 @@
     margin-left: 2.5rem;
 }
 
+// .card .card-image .image img
 .block-title-wb {
     margin: 20px 0 15px;
     white-space: nowrap;
@@ -215,18 +216,34 @@
 
 .image-platina {
     margin: auto;
-    justify-content: center;
-    max-width: 300px;
-}
 
+    text-align: center;
+    img {
+        height: 80px;
+    }
+}
 .image-ouro {
     margin: auto;
-    max-width: 200px;
+    text-align: center;
+    img {
+        height: 70px;
+    }
+}
+
+.image-bronze {
+    margin: auto;
+    text-align: center;
+    img {
+        height: 60px;
+    }
 }
 
 .image-apoio {
     margin: auto;
-    max-width: 100px;
+    text-align: center;
+    img {
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
