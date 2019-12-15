@@ -159,7 +159,7 @@ const partners = () => (
                         </div>
                     </nav>
                     <div class="columns is-multiline is-centered">
-                        <div class="column is-one-fifth-desktop is-one-fifth-tablet">
+                        <div class="column is-one-fifth-desktop is-one-fifth-tablet is-two-fifths-mobile">
                             <div class="card">
                                 <div class="card-image">
                                     <figure class="image-apoio">
