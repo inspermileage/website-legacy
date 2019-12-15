@@ -1,7 +1,4 @@
 import React from "react"
-import InsperLogo from "../images/partners/insper.svg"
-import AffariLogo from "../images/partners/affari.svg"
-import AtteiLogo from "../images/partners/ateei.png"
 import { Link } from "gatsby"
 
 const Partners = () => (
@@ -18,22 +15,11 @@ const Partners = () => (
                             ser parceiros de:
                         </h1>
                         <Link
-                            to="/construction"
+                            to="/partners"
                             class="button is-primary is-outlined"
                         >
                             Programa de parcerias
                         </Link>
-                    </div>
-                </div>
-                <div class="columns is-vcentered">
-                    <div class="column is-flex is-horizontal-center">
-                        <img src={InsperLogo} alt="Software e Controle" />
-                    </div>
-                    <div class="column is-flex is-horizontal-center">
-                        <img src={AtteiLogo} alt="Software e Controle" />
-                    </div>
-                    <div class="column is-flex is-horizontal-center">
-                        <img src={AffariLogo} alt="Software e Controle" />
                     </div>
                 </div>
             </div>

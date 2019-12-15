@@ -120,6 +120,62 @@
     background-size: cover;
 }
 
+.card {
+    margin: 1rem;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.partner-cat {
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 2em;
+    width: min-content;
+    color: white;
+}
+
+.image-platina {
+    margin: auto;
+
+    text-align: center;
+    img {
+        height: 80px;
+    }
+}
+.image-ouro {
+    margin: auto;
+    text-align: center;
+    img {
+        height: 70px;
+    }
+}
+
+.image-bronze {
+    margin: auto;
+    text-align: center;
+    img {
+        height: 60px;
+    }
+}
+
+.image-apoio {
+    margin: auto;
+    text-align: center;
+    img {
+        height: 50px;
+    }
+}
+
+// Team scrolling cards component
+.scrolling {
+    padding: 10px 50px;
+    display: flex;
+    overflow: visible;
+    overflow-x: auto;
+    width: 100%;
+    border-width: 2rem;
+    justify-content: center;
+}
 .has-horizontal-scroll {
     position: relative;
     margin: 50px 0;
@@ -153,6 +209,7 @@
 .scrolling-wrapper-flexbox .feature-card figure {
     margin: 0 auto;
 }
+
 @media screen and (max-width: 768px) {
     .scrolling-wrapper-flexbox:after {
         display: none;
@@ -164,6 +221,12 @@
     .scrolling-wrapper-flexbox .padder-card {
         display: inline-block;
     }
+
+    .scrolling {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -171,16 +234,13 @@
         width: 90%;
         height: 250px;
     }
+    .scrolling {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
-.is-horizontal-center {
-    justify-content: center;
-}
-
-.align-middle {
-    margin: auto;
-}
-
+// Footer component
 footer.footer-dark {
     background: $secondary;
     color: white;
@@ -189,6 +249,7 @@ footer.footer-dark {
         margin-top: 10px;
     }
     .footer-logo {
+        margin: auto;
         img {
             height: 75px;
         }
@@ -228,6 +289,7 @@ footer.footer-dark {
     }
 }
 
+// Contact Page
 .contact-map {
     height: 400px;
     width: 100%;

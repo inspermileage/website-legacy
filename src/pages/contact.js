@@ -221,14 +221,14 @@ const ContactPage = () => (
                                                     type="radio"
                                                     name="via"
                                                 />
-                                                via Telefone
+                                                {"  "}via Telefone
                                             </label>
                                             <label class="radio">
                                                 <input
                                                     type="radio"
                                                     name="via"
                                                 />
-                                                via Email
+                                                {"  "}via Email
                                             </label>
                                         </div>
                                         <p class="help">
