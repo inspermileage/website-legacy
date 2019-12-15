@@ -5,364 +5,321 @@
 @import "~bulma/bulma.sass";
 @import "~bulma-extensions/src/sass/index.sass";
 
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
 .SectionBlock {
-  position: relative;
-  margin-top: 45px;
+    position: relative;
+    margin-top: 45px;
 }
 
 .SectionBlock #introAngled {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  transform: skewY(-6deg);
-  transform-origin: 0;
-  position: absolute;
-  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: skewY(-6deg);
+    transform-origin: 0;
+    position: absolute;
+    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
 }
 
 .SectionBlock .introBG {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url(../images/introbg5.svg) repeat center center fixed;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/introbg5.svg) repeat center center fixed;
 }
 
 .SectionBlock .competitionBG {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url(../images/competitionbg2.svg) repeat center center fixed;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/competitionbg2.svg) repeat center center fixed;
 }
 
 .SectionBlock .teamBG {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url(../images/teambg.svg) repeat center center fixed;
-  background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/teambg.svg) repeat center center fixed;
+    background-size: cover;
 }
 
 .block-title-bw {
-  margin: 20px 0 15px;
-  white-space: nowrap;
-  padding: 5px;
-  font-size: 2em;
-  width: min-content;
-  border: 4px solid $secondary;
-}
-
-
-.SectionBlock #competitionAngled {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  transform: skew(0, 3deg);
-  position: absolute;
-  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-  background: $secondary;
-}
-
-.SectionBlock #TeamAngled {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  transform: skew(0, -3deg);
-  position: absolute;
-  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
-}
-
-.has-horizontal-scroll {
-  position: relative;
-  margin: 50px 0;
-}
-
-.scrolling-wrapper-flexbox {
-  padding: 10px 30px;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: visible;
-  overflow-x: auto;
-  width: 100%;
-  -webkit-overflow-scrolling: touch;
-}
-
-.scrolling-wrapper-flexbox .feature-card {
-  z-index: 9;
-  background: white;
-  flex: 0 0 auto;
-  padding: 30px 16px;
-  margin-right: 2%;
-  border: 1px solid white;
-  width: 23.5%;
-  border-radius: 4px;
-  display: inline-block;
-  border: 1px solid #dedede;
-  text-align: center;
-  position: relative;
-}
-
-.scrolling-wrapper-flexbox .feature-card figure {
-  margin: 0 auto;
-}
-
-
-
-
-
-
-.block-title-bwa {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0 15px;
-  white-space: nowrap;
-  padding: 5px;
-  font-size: 1.5rem;
-  width: min-content;
-  border: 2px solid $secondary;
-
-}
-.texto{
-
-  display: flex;
-  justify-content: center;
-}
-
-.cat_part{
-
-display: flex;
-font-size: 2rem;
-justify-content: center;
-
-
-}
-.parceria{
-
-  font-size: 1.5rem;
-
-}
-
-.patrocinadores{
-
-  display: flex;
-  justify-content: space-around;
-}
-
-.container_desc_ouro{
-
-  max-width: 13rem;
-  font-size: 0.9rem;
-}
-
-
-.scrolling{
-
-  padding: 10px 50px;
-  display: flex;
-  overflow: visible;
-  overflow-x: auto;
-  width: 100%;
-  border-width: 2rem;
-  justify-content: center;
-}
-
-.card{
-
-  margin: 2rem;
-  border-radius: 4px;
-  padding: 3rem;
-
-}
-
-.container-titulo{
-  margin-top: 3rem;
-  margin-left: 2.5rem;
-}
-.alinhamento_botao{
-
-display: flex;
-justify-content: center;
-}
-
-.texto_intro{
-
-  display: flex;
-  justify-content: center;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-  margin-top: 2rem;
-
-}
-
-.image_ouro{
-
-  width: 12rem;
-}
-.desc_platina{
-
-  margin-top: 1rem;
-  text-align: start;
-  max-width: 20rem;
+    margin: 20px 0 15px;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 2em;
+    width: min-content;
+    border: 4px solid $secondary;
 }
 
 .block-title-wb {
-  margin: 20px 0 15px;
-  white-space: nowrap;
-  padding: 5px;
-  font-size: 2em;
-  width: min-content;
-  border: 4px solid white;
-  color: white;
+    margin: 20px 0 15px;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 2em;
+    width: min-content;
+    border: 4px solid white;
+    color: white;
 }
 
-
-.titulo_apoio{
-
-  font-size: 1.6rem;
-  margin-bottom: 3rem;
+.SectionBlock #competitionAngled {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: skew(0, 3deg);
+    position: absolute;
+    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+    background: $secondary;
 }
 
-.image_platina{
-
-  width: 20rem;
+.SectionBlock #TeamAngled {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: skew(0, -3deg);
+    position: absolute;
+    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
 }
 
-.container_apoio{
-
-  margin-left: 3rem;
+.project-tile-bg {
+    background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
 }
 
+.competition-tile-bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../images/competicao.jpeg) center center;
+    background-size: cover;
+}
 
+.team-tile-bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../images/time.jpeg) center center;
+    background-size: cover;
+}
+
+.partner-tile-bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../images/partnership.jpeg) center center;
+    background-size: cover;
+}
+
+.projeto-tile-bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../images/project.png) center center;
+    background-size: cover;
+}
+
+.has-horizontal-scroll {
+    position: relative;
+    margin: 50px 0;
+}
+
+.scrolling-wrapper-flexbox {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: visible;
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flexbox .feature-card {
+    z-index: 9;
+    background: white;
+    flex: 0 0 auto;
+    padding: 30px 16px;
+    margin-right: 2%;
+    border: 1px solid white;
+    width: 23.5%;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #dedede;
+    text-align: center;
+    position: relative;
+}
+
+.scrolling-wrapper-flexbox .feature-card figure {
+    margin: 0 auto;
+}
+
+.block-title-bwa {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 15px;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 1.5rem;
+    width: min-content;
+    border: 2px solid $secondary;
+}
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+.partner-cat {
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 2em;
+    width: min-content;
+    color: white;
+}
+
+.container_desc_ouro {
+    max-width: 13rem;
+    font-size: 0.9rem;
+}
+
+.scrolling {
+    padding: 10px 50px;
+    display: flex;
+    overflow: visible;
+    overflow-x: auto;
+    width: 100%;
+    border-width: 2rem;
+    justify-content: center;
+}
+
+.card {
+    margin: 1rem;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+.container-titulo {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+}
+
+.block-title-wb {
+    margin: 20px 0 15px;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 2em;
+    width: min-content;
+    border: 4px solid white;
+    color: white;
+}
+
+.image-platina {
+    margin: auto;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.image-ouro {
+    margin: auto;
+    max-width: 200px;
+}
+
+.image-apoio {
+    margin: auto;
+    max-width: 100px;
+}
 
 @media screen and (max-width: 768px) {
-  .scrolling-wrapper-flexbox:after {
-    display: none;
-  }
-  .scrolling-wrapper-flexbox .feature-card {
-    width: 45%;
-    height: 250px;
-  }
-  .scrolling-wrapper-flexbox .padder-card {
-    display: inline-block;
-  }
-
-  .desc_platina, .desc_ouro{
-    font-size: smaller;
-
-  }
-  .image{
-    width: 10rem;
-  }
-
-  .image_ouro{
-    width: 10rem;
-  }
-
-  .image_platina{
-
-    width: 14rem;
-  }
-  
-
-
-  .scrolling{
-
-      display: grid;
-      grid-template-columns: 1fr;
-      width:100%;
+    .scrolling-wrapper-flexbox:after {
+        display: none;
+    }
+    .scrolling-wrapper-flexbox .feature-card {
+        width: 45%;
+        height: 250px;
+    }
+    .scrolling-wrapper-flexbox .padder-card {
+        display: inline-block;
     }
 
-  .container_desc_ouro{
-    max-width: 30rem;
-
-  }  
-  .desc_platina{
-
-    max-width: 30rem;
-  }
-  }
-
+    .scrolling {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 540px) {
-  .scrolling-wrapper-flexbox .feature-card {
-    width: 90%;
-    height: 250px;
-  }
-  .scrolling{
-
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
+    .scrolling-wrapper-flexbox .feature-card {
+        width: 90%;
+        height: 250px;
+    }
+    .scrolling {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .is-horizontal-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .align-middle {
-  margin: auto;
+    margin: auto;
 }
 
 footer.footer-dark {
-  background: $secondary;
-  color: white;
-  padding: 2rem 1.5rem 2rem;
-  .columns {
-    margin-top: 10px;
-  }
-  .footer-logo {
-    img {
-      height: 75px;
+    background: $secondary;
+    color: white;
+    padding: 2rem 1.5rem 2rem;
+    .columns {
+        margin-top: 10px;
     }
-  }
-  .footer-modal {
-    color: black;
-  }
-  .footer-column {
-    .footer-header h3 {
-      font-weight: 500;
-      font-size: 1.2rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
+    .footer-logo {
+        img {
+            height: 75px;
+        }
     }
-    ul.link-list {
-      line-height: 40px;
-      font-size: 1.1rem;
-      a {
-        color: white;
-        font-weight: 400;
-      }
-      a:hover {
-        color: $primary;
-      }
+    .footer-modal {
+        color: black;
     }
-    .level-item {
-      padding-top: 10px;
-      .footer-icon {
-        color: white;
-      }
+    .footer-column {
+        .footer-header h3 {
+            font-weight: 500;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        ul.link-list {
+            line-height: 40px;
+            font-size: 1.1rem;
+            a {
+                color: white;
+                font-weight: 400;
+            }
+            a:hover {
+                color: $primary;
+            }
+        }
+        .level-item {
+            padding-top: 10px;
+            .footer-icon {
+                color: white;
+            }
 
-      :hover {
-        color: $primary;
-      }
+            :hover {
+                color: $primary;
+            }
+        }
     }
-  }
 }
 
 .contact-map {
-  height: 400px;
-  width: 100%;
-  margin-bottom: 20px;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .align-left {
-  text-align: left;
+    text-align: left;
 }
-
-
-
- 
-
