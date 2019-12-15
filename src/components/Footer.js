@@ -49,8 +49,8 @@ class Footer extends React.Component {
             <footer class="footer footer-dark">
                 <div class="container">
                     <div class="columns">
-                        <div class="column is-flex is-horizontal-center">
-                            <div class="footer-logo align-middle">
+                        <div class="column is-flex">
+                            <div class="footer-logo">
                                 <img alt="Insper Mileage Logo" src={icon} />
                             </div>
                         </div>

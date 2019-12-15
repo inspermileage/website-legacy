@@ -120,98 +120,10 @@
     background-size: cover;
 }
 
-.has-horizontal-scroll {
-    position: relative;
-    margin: 50px 0;
-}
-
-.scrolling-wrapper-flexbox {
-    padding: 10px 30px;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: visible;
-    overflow-x: auto;
-    width: 100%;
-    -webkit-overflow-scrolling: touch;
-}
-
-.scrolling-wrapper-flexbox .feature-card {
-    z-index: 9;
-    background: white;
-    flex: 0 0 auto;
-    padding: 30px 16px;
-    margin-right: 2%;
-    border: 1px solid white;
-    width: 23.5%;
-    border-radius: 4px;
-    display: inline-block;
-    border: 1px solid #dedede;
-    text-align: center;
-    position: relative;
-}
-
-.scrolling-wrapper-flexbox .feature-card figure {
-    margin: 0 auto;
-}
-
-.block-title-bwa {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0 15px;
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 1.5rem;
-    width: min-content;
-    border: 2px solid $secondary;
-}
-.texto {
-    display: flex;
-    justify-content: center;
-}
-
-.partner-cat {
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 2em;
-    width: min-content;
-    color: white;
-}
-
-.container_desc_ouro {
-    max-width: 13rem;
-    font-size: 0.9rem;
-}
-
-.scrolling {
-    padding: 10px 50px;
-    display: flex;
-    overflow: visible;
-    overflow-x: auto;
-    width: 100%;
-    border-width: 2rem;
-    justify-content: center;
-}
-
 .card {
     margin: 1rem;
     border-radius: 4px;
     padding: 2rem;
-}
-
-.container-titulo {
-    margin-top: 3rem;
-    margin-left: 2.5rem;
-}
-
-// .card .card-image .image img
-.block-title-wb {
-    margin: 20px 0 15px;
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 2em;
-    width: min-content;
-    border: 4px solid white;
-    color: white;
 }
 
 .image-platina {
@@ -246,6 +158,50 @@
     }
 }
 
+// Team scrolling cards component
+.scrolling {
+    padding: 10px 50px;
+    display: flex;
+    overflow: visible;
+    overflow-x: auto;
+    width: 100%;
+    border-width: 2rem;
+    justify-content: center;
+}
+.has-horizontal-scroll {
+    position: relative;
+    margin: 50px 0;
+}
+
+.scrolling-wrapper-flexbox {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: visible;
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flexbox .feature-card {
+    z-index: 9;
+    background: white;
+    flex: 0 0 auto;
+    padding: 30px 16px;
+    margin-right: 2%;
+    border: 1px solid white;
+    width: 23.5%;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #dedede;
+    text-align: center;
+    position: relative;
+}
+
+.scrolling-wrapper-flexbox .feature-card figure {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
     .scrolling-wrapper-flexbox:after {
         display: none;
@@ -276,14 +232,7 @@
     }
 }
 
-.is-horizontal-center {
-    justify-content: center;
-}
-
-.align-middle {
-    margin: auto;
-}
-
+// Footer component
 footer.footer-dark {
     background: $secondary;
     color: white;
@@ -292,6 +241,7 @@ footer.footer-dark {
         margin-top: 10px;
     }
     .footer-logo {
+        margin: auto;
         img {
             height: 75px;
         }
@@ -331,6 +281,7 @@ footer.footer-dark {
     }
 }
 
+// Contact Page
 .contact-map {
     height: 400px;
     width: 100%;

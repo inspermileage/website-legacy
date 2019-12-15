@@ -42,7 +42,6 @@ const partners = () => (
                                     <div class="card-image">
                                         <figure class="image-platina">
                                             <img
-                                                class="align-middle"
                                                 src={InsperLogo}
                                                 alt="Insper"
                                             />
