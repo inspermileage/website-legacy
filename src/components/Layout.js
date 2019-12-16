@@ -7,12 +7,11 @@ import Footer from "./Footer"
 import "./style.scss"
 
 const Layout = ({ children }) => (
-  <>
-    <SEO />
-    <Header />
-    {children}
-    <Footer />
-  </>
+    <>
+        <Header />
+        {children}
+        <Footer />
+    </>
 )
 
 export default Layout
