@@ -361,3 +361,20 @@ footer.footer-dark {
     margin-top: 1rem;
     text-align: justify;
 }
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+    &:hover::before {
+        color: $secondary;
+    }
+}
+
+.image-gallery-thumbnail {
+    &.active {
+        border: 4px solid $secondary;
+
+        @media (max-width: $ig-screen-sm-min) {
+            border: 3px solid $secondary;
+        }
+    }
+}
