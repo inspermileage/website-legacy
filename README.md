@@ -4,7 +4,7 @@ Este repositório contém o código do website do projeto, que foi desenvolvido 
 
 ## Desenvolvimento
 
-Essas instruções vão fazer com que você tenha uma cópia do projeto rodando em sua máquina local para desevolvimento e testes.
+Essas instruções vão fazer com que você tenha uma cópia do projeto rodando em sua máquina local para desevolvimento.
 Veja o tópico de [_deployment_](#deployment) para ver como hospedar o projeto.
 
 ### Pré-Requisitos
@@ -43,7 +43,9 @@ Para executar o projeto, você precisa ter instalado em sua máquina: NodeJS, Ya
 #### Gatsby CLI (v1.16.0)
 
 - NPM
-  `bash $ npm install -g gatsby-cli`
+  ```bash
+  $ npm install -g gatsby-cli
+  ```
   ou
 - Yarn
   ```bash
@@ -53,7 +55,8 @@ Para executar o projeto, você precisa ter instalado em sua máquina: NodeJS, Ya
 ### Instalação e execução
 
 - Na pasta do projeto, execute o comando `$ yarn install`, ele instalará todas as dependências do projeto descritas no `package.json`.
-- Com o comando `gatsby develop` o framework inicia o servidor de desenvolvimento com _hot-reload_, acessível no `localhost:8000`
+- Com o comando `gatsby develop` o framework inicia o servidor de desenvolvimento com _hot-reload_
+- O site pode ser acessado em `localhost:8000`
 
 ## Deployment
 
