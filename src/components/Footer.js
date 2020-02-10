@@ -61,9 +61,7 @@ class Footer extends React.Component {
                                 </div>
                                 <ul class="link-list">
                                     <li>
-                                        <Link to="/construction">
-                                            Quem somos
-                                        </Link>
+                                        <Link to="/construction">Quem somos</Link>
                                     </li>
                                     <li>
                                         <Link to="/construction">
@@ -71,10 +69,10 @@ class Footer extends React.Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/project">Projeto</Link>
+                                        <Link to="/prototypes">Protótipo</Link>
                                     </li>
                                     <li>
-                                        <Link to="/construction">Equipe</Link>
+                                        <Link to="/2020/team">Equipe</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -86,9 +84,7 @@ class Footer extends React.Component {
                                 </div>
                                 <ul class="link-list">
                                     <li>
-                                        <Link to="/construction">
-                                            Parcerias
-                                        </Link>
+                                        <Link to="/partners">Parcerias</Link>
                                     </li>
                                     <li>
                                         <Link to="/construction">

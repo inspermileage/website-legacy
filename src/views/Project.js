@@ -3,13 +3,6 @@ import car from "../images/car.svg"
 import { Link } from "gatsby"
 
 const Project = () => (
-    // Nosso projeto consiste em um protótipo de veículo elétrico a bateria, que
-    //   conta com sistemas elétricos de alta eficiência, um sistema de controle
-    //   complexo que melhora a eficiência de acionamento do motor, um monocoque em
-    //   fibra de carbono super leve em formato aerodinâmico, um sistema de
-    //   telemetria em tempo real e um sistema semi-autônomo de direção.
-
-    // How fast can it go?
     <section id="project" class="hero is-medium">
         <div class="hero-body">
             <div class="container">

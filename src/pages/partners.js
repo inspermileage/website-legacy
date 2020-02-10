@@ -114,23 +114,14 @@ const partners = () => (
                                 </div>
                             </OutboundLink>
                         </div>
-                    </div>
-                    <nav class="level">
-                        <div class="level-item project-tile-bg">
-                            <h1 class="title is-3 partner-cat">
-                                PARCEIROS OURO
-                            </h1>
-                        </div>
-                    </nav>
-                    <div class="columns is-multiline is-centered">
-                        <div class="column is-one-third-desktop is-one-third-tablet">
+                        <div class="column is-two-fifths-desktop is-two-fifths-tablet">
                             <OutboundLink
                                 href="https://www.energisa.com.br"
                                 target="_blank"
                             >
                                 <div class="card">
                                     <div class="card-image">
-                                        <figure class="image-ouro">
+                                        <figure class="image-platina">
                                             <img
                                                 src={Energisalogo}
                                                 alt="Energisa"
@@ -151,7 +142,6 @@ const partners = () => (
                             </OutboundLink>
                         </div>
                     </div>
-
                     <nav class="level">
                         <div class="level-item project-tile-bg">
                             <h1 class="title is-3 partner-cat">APOIO</h1>
