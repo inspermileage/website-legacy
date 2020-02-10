@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../../components/Layout"
 import ImageGallery from "react-image-gallery"
+import AnchorLink from "react-anchor-link-smooth-scroll"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import SEO from "../../components/SEO"
 
@@ -11,6 +13,8 @@ import prototype2 from "../../images/2020/project/prototype-2.png"
 import prototype2_thumb from "../../images/2020/project/prototype-2-thumb.png"
 import prototype3 from "../../images/2020/project/prototype-3.png"
 import prototype3_thumb from "../../images/2020/project/prototype-3-thumb.png"
+
+import icon from "../../images/icons/icon.svg"
 
 const images = [
     {
@@ -57,14 +61,14 @@ const Project = () => (
         <section class="hero is-medium">
             <div class="hero-body">
                 <div class="container">
-                    <h1 class="title is-2 block-title-bw">
-                        Protótipo Bolt - 2020
-                    </h1>
                     <div class="tile is-ancestor">
                         <div class="tile is-vertical is-12">
                             <div class="tile">
                                 <div class="tile is-parent is-vertical">
                                     <article class="tile is-child">
+                                        <h1 class="title is-2 block-title-bw">
+                                            Protótipo Bolt - 2020
+                                        </h1>
                                         Sed ut perspiciatis unde omnis iste
                                         natus error sit voluptatem accusantium
                                         doloremque laudantium, totam rem
@@ -82,11 +86,12 @@ const Project = () => (
                                         dolore magnam aliquam quaerat
                                         voluptatem.
                                     </article>
+
                                     <article class="tile is-child">
                                         <Galeria></Galeria>
                                     </article>
                                 </div>
-                                <div class="tile is-parent">
+                                <div class="tile is-parent is-vertical">
                                     <article class="tile is-child">
                                         <h3 class="title is-4 block-title-bw">
                                             Especificações
@@ -152,9 +157,76 @@ const Project = () => (
                             </div>
                         </div>
                     </div>
-                    <h3 class="title is-4 block-title-bw">Mecânica</h3>
+                </div>
+                <div class="container">
+                    <h3 id="administrativo" class="title is-4 block-title-bw ">
+                        Administrativo
+                    </h3>
                     <div class="columns">
-                        <div class="column is-6">
+                        <div class="column">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est,
+                            qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi
+                            tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem.
+                            </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 id="controle" class="title is-4 block-title-bw ">
+                        Controle
+                    </h3>
+                    <div class="columns">
+                        <div class="column">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est,
+                            qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi
+                            tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem.
+                            </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 id="eletronica" class="title is-4 block-title-bw">
+                        Eletrônica
+                    </h3>
+                    <div class="columns">
+                        <div class="column">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est,
+                            qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi
+                            tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem.
+                            </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 id="mecanica" class="title is-4 block-title-bw">
+                        Mecânica
+                    </h3>
+                    <div class="columns">
+                        <div class="column">
                             Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam
                             rem aperiam, eaque ipsa quae ab illo inventore
@@ -168,19 +240,32 @@ const Project = () => (
                             tempora incidunt ut labore et dolore magnam aliquam
                             quaerat voluptatem.
                         </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 id="software" class="title is-4 block-title-bw">
+                        Software
+                    </h3>
+                    <div class="columns">
                         <div class="column">
-                            <figure class="image">
-                                <img
-                                    src={prototype_sketch}
-                                    alt="Rascunho do protótipo"
-                                />
-                            </figure>
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt. Neque porro quisquam est,
+                            qui dolorem ipsum quia dolor sit amet, consectetur,
+                            adipisci velit, sed quia non numquam eius modi
+                            tempora incidunt ut labore et dolore magnam aliquam
+                            quaerat voluptatem.
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </Layout>
+        </section >
+    </Layout >
 )
 
 export default Project

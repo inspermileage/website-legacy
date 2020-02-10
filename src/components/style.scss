@@ -305,17 +305,21 @@ footer.footer-dark {
     text-align: left;
 }
 
-.names {
+.team-member {
     display: flex;
+    color: black;
     justify-content: center;
     font-weight: bold;
 }
 
-.office {
+.team-area {
     display: flex;
+    color: black;
     justify-content: center;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    &:hover {
+        color: $primary;
+        font-weight: bold;
+    }
 }
 
 .images-team {
@@ -324,13 +328,6 @@ footer.footer-dark {
     height: 7rem;
     margin: 0 auto;
     border-radius: 50%;
-}
-
-@media screen and (max-width: 540px) {
-    .images-team {
-        width: 4rem;
-        height: 4rem;
-    }
 }
 
 .titles-team {
@@ -362,6 +359,13 @@ footer.footer-dark {
     text-align: justify;
 }
 
+.team-anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
 .image-gallery-left-nav,
 .image-gallery-right-nav {
     &:hover::before {
@@ -377,4 +381,8 @@ footer.footer-dark {
             border: 3px solid $secondary;
         }
     }
+}
+
+.team-leader{
+    border: 5px solid rgb(0, 0, 0);
 }

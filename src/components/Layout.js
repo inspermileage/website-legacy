@@ -1,6 +1,4 @@
 import React from "react"
-
-import SEO from "./SEO"
 import Header from "./Header"
 import Footer from "./Footer"
 
