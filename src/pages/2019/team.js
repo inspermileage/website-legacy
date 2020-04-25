@@ -1,21 +1,16 @@
 import React from "react"
 import Layout from "../../components/Layout"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 import SEO from "../../components/SEO"
-import { Link } from "gatsby"
+import TeamComponent from "../../components/TeamComponent"
 
-import SoftControlIcon from "../../images/icons/softcontrole.svg"
-import EletronicIcon from "../../images/icons/eletronica.svg"
-import MechanicIcon from "../../images/icons/mecanica.svg"
-import prototype_sketch from "../../images/2020/project/prototype-sketch.png"
-import prototype1 from "../../images/2020/project/prototype-1.png"
-import prototype1_thumb from "../../images/2020/project/prototype-1-thumb.png"
-import prototype2 from "../../images/2020/project/prototype-2.png"
-import prototype2_thumb from "../../images/2020/project/prototype-2-thumb.png"
-import prototype3 from "../../images/2020/project/prototype-3.png"
-import prototype3_thumb from "../../images/2020/project/prototype-3-thumb.png"
-import icon from "../../images/icons/icon.svg"
+import isadora from "../../images/2020/team/isadora.jpg"
+import dennis from "../../images/2020/team/dennis.jpg"
+import giovana from "../../images/2020/team/giovana.jpg"
+import guilherme from "../../images/2020/team/guilherme.jpg"
+import marceloreis from "../../images/2020/team/marceloreis.jpg"
+import ramiro from "../../images/2020/team/ramiro.jpg"
+import beatrizbernardino from "../../images/2020/team/beatrizbernardino.jpg"
+
 
 const EquipePage = () => (
     <Layout>
@@ -32,474 +27,200 @@ const EquipePage = () => (
                     <h1 class="title is-2 block-title-bw">Equipe 2019</h1>
                     <article class="tile is-child">
                         <div class="columns is-multiline is-centered">
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/rampandullo30"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Ramiro</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#administrativo"
-                                >
-                                    Administrativo
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/igor-seramisu"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Igor</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#administrativo"
-                                >
-                                    Administrativo
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/celine-mitu"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Celine</p>
+                            
+                            {/* Equipe do Administrativo */}
 
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#administrativo"
-                                >
-                                    Administrativo
-                                </Link>
-                            </div>
+                            <TeamComponent name="Celine Mitu"
+                                            link="https://www.linkedin.com/in/celine-mitu"
+                                            office="Administrativo"
+                                            link_area="/2020/project/#administrativo"
+                                            class="images-team"
+                                            image={isadora}/>
 
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/joaoabbatepaulo"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">
-                                        João Victor
-                                            </p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#administrativo"
-                                >
-                                    Administrativo
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/lucasfontenla"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team team-leader"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Lucas</p>
-                                </OutboundLink>
-                                <p class="team-area">Capitão e Controle</p>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/guilherme-boldin-6ba36b165"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Guilherme</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#controle"
-                                >
-                                    Controle
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/guilherme-boldin-6ba36b165"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Alexandre</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#controle"
-                                >
-                                    Controle
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">André</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#controle"
-                                >
-                                    Controle
-                                </Link>
-                            </div>
+                            <TeamComponent name="João Abbatepaulo"
+                                            link="https://www.linkedin.com/in/joaoabbatepaulo"
+                                            office="Administrativo"
+                                            link_area="/2020/project/#administrativo"
+                                            class="images-team"
+                                            image={isadora}/>
+
+                            <TeamComponent name="Igor Seramisu"
+                                            link="https://www.linkedin.com/in/igor-seramisu"
+                                            office="Administrativo"
+                                            link_area="/2020/project/#administrativo"
+                                            class="images-team"
+                                            image={isadora}/>
+
+                            <TeamComponent name="Ramiro Pandullo"
+                                            link="https://www.linkedin.com/in/rampandullo30"
+                                            office="Administrativo"
+                                            link_area="/2020/project/#administrativo"
+                                            class="images-team"
+                                            image={isadora}/>
+
+                            {/* Equipe de Controle */}
+                            
+                            <TeamComponent name="Lucas Fontenla"
+                                            link="https://www.linkedin.com/in/lucasfontenla"
+                                            office="Capitão e Controle"
+                                            link_area="/2020/project/#controle"
+                                            class="images-team team-leader"
+                                            image={isadora}/>
+ 
+                            <TeamComponent name="Guilherme Boldin"
+                                           link="https://www.linkedin.com/in/guilherme-boldin-6ba36b165/"
+                                           office="Controle"
+                                           link_area="/2020/project/#controle"
+                                           class="images-team"
+                                           image={isadora}/>
+
+                            <TeamComponent name="Alexandre"
+                                           link="https://www.linkedin.com/in/igor-seramisu"
+                                           office="Controle"
+                                           link_area="/2020/project/#controle"
+                                           class="images-team"
+                                           image={isadora}/>
 
 
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team team-leader"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">
-                                        Victor Hugo
-                                            </p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#eletronica"
-                                >
-                                    Eletrônica
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/guilherme-boldin-6ba36b165"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Anna Beathriz</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#eletronica"
-                                >
-                                    Eletrônica
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Gabriel</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#eletronica"
-                                >
-                                    Eletrônica
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Giovana</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#eletronica"
-                                >
-                                    Eletrônica
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Stephanie</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#eletronica"
-                                >
-                                    Eletrônica
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/felipe-scandiuzzi-552164153"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team team-leader"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Felipe</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/guilherme-boldin-6ba36b165"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Dennis</p>
+                            <TeamComponent name="André Annunziato"
+                                           link="https://www.linkedin.com/in/andr%C3%A9-annunziato-526ab5169/"
+                                           office="Controle"
+                                           link_area="/2020/project/#controle"
+                                           class="images-team"
+                                           image={isadora}/>
 
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/guilherme-boldin-6ba36b165"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Isadora</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">
-                                        João Guilherme
-                                        </p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/felipe-scandiuzzi-552164153"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Luis Felipe</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/felipe-scandiuzzi-552164153"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Marcelo</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/martim-ferreira-jose"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Paulo</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#mecanica"
-                                >
-                                    Mecânica
-                                        </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/martim-ferreira-jose"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team team-leader"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">Martim</p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#software"
-                                >
-                                    Software
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">
-                                        Beatriz
-                                                    </p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#software"
-                                >
-                                    Software
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">
-                                        Nicole
-                                                    </p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#software"
-                                >
-                                    Software
-                                </Link>
-                            </div>
-                            <div class="column is-3 is-narrow">
-                                <OutboundLink
-                                    href="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
-                                    target="_blank"
-                                >
-                                    <img
-                                        class="images-team"
-                                        src={icon}
-                                        alt="Ícone Mileage"
-                                    />
-                                    <p class="team-member">
-                                        William
-                                                    </p>
-                                </OutboundLink>
-                                <Link
-                                    class="team-area"
-                                    to="/2020/project/#software"
-                                >
-                                    Software
-                                </Link>
-                            </div>
+
+                            {/* Equipe de Eletrônica */}
+
+                            <TeamComponent name="Victor Hugo"
+                                            link="https://www.linkedin.com/in/victor-hugo-leal-vieira-da-silva-51726a12a"
+                                            office="Eletrônica"
+                                            link_area="/2020/project/#eletronica"
+                                            class="images-team team-leader"
+                                            image={isadora}/>
+                            
+
+                            <TeamComponent name="Anna Beathriz"
+                                            link="https://www.linkedin.com/in/anna-beathriz-cipriano-de-mauro-203417151/"
+                                            office="Eletrônica"
+                                            link_area="/2020/project/#eletronica"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            <TeamComponent name="Gabriel Terhorst"
+                                            link="https://www.linkedin.com/in/gabriel-terhorst-de-souza-a194a8146/"
+                                            office="Eletrônica"
+                                            link_area="/2020/project/#eletronica"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            <TeamComponent name="Giovana Lemes"
+                                           link="https://www.linkedin.com/in/gio-lemes/"
+                                           office="Eletrônica"
+                                           link_area="/2020/project/#eletronica"
+                                           class="images-team"
+                                           image={isadora}/>
+
+                            <TeamComponent name="Stephanie Liu"
+                                            link="https://www.linkedin.com/in/stephanie-liu-469066195/"
+                                            office="Eletrônica"
+                                            link_area="/2020/project/#eletronica"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            {/* Equipe de Mecânica */}                        
+
+                            <TeamComponent name="Felipe Scandiuzzi"
+                                            link="https://www.linkedin.com/in/felipe-scandiuzzi-552164153"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team team-leader"
+                                            image={isadora}/>
+                            
+
+                            <TeamComponent name="Dennis"
+                                            link="https://www.linkedin.com/in/stephanie-liu-469066195/"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team"
+                                            image={dennis}/>
+
+
+                            <TeamComponent name="Isadora Stigliani"
+                                            link="https://www.linkedin.com/in/isadora-stigliani-dalberto-65526a19b/"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            <TeamComponent name="João Guilherme"
+                                            link="https://www.linkedin.com/in/stephanie-liu-469066195/"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            <TeamComponent name="Luiz Felipe"
+                                            link="https://www.linkedin.com/in/luiz-felipe-lazzaron-682676181/"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team"
+                                            image={isadora}/> 
+
+
+                            <TeamComponent name="Marcelo Lisboa"
+                                            link="https://www.linkedin.com/in/marcelo-lisboa-de-castro-reis-14b75a16b/"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team"
+                                            image={marceloreis}/>
+
+
+                            <TeamComponent name="Paulo Chavarelli"
+                                            link="https://www.linkedin.com/in/paulo-t-chavarelli-b5a02a170/"
+                                            office="Mecânica"
+                                            link_area="/2020/project/#mecanica"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            {/* Equipe de Software */}
+
+                            <TeamComponent name="Martim Ferreira"
+                                            link="https://www.linkedin.com/in/martim-ferreira-jose"
+                                            office="Software"
+                                            link_area="/2020/project/#software"
+                                            class="images-team team-leader"
+                                            image={isadora}/>
+                        
+
+                            <TeamComponent name="Beatriz Bernardino"
+                                            link="https://www.linkedin.com/in/beatriz-rianho-bernardino-7198061a4/"
+                                            office="Software"
+                                            link_area="/2020/project/#software"
+                                            class="images-team"
+                                            image={beatrizbernardino}/>
+
+
+                            <TeamComponent name="Nicole Sarvasi"
+                                            link="https://www.linkedin.com/in/beatriz-rianho-bernardino-7198061a4/"
+                                            office="Software"
+                                            link_area="/2020/project/#software"
+                                            class="images-team"
+                                            image={isadora}/>
+
+
+                            <TeamComponent name="William Reis"
+                                            link="https://www.linkedin.com/in/williamars/"
+                                            office="Software"
+                                            link_area="/2020/project/#software"
+                                            class="images-team"
+                                            image={isadora}/>
                         </div>
                     </article>
                 </div>
