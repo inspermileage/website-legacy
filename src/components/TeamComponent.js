@@ -1,5 +1,4 @@
 import React from "react"
-import icon from "../images/icons/icon.svg"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { Link } from "gatsby"
 
@@ -14,7 +13,7 @@ const TeamComponent = function(props) {
                 <img
                     class={props.class}
                     src={props.image}
-                    alt="Ícone Mileage"
+                    alt="Imagem do integrante"
                 />
                 <p class="team-member">{props.name}</p>
             </OutboundLink>

@@ -2,14 +2,19 @@ import React from "react"
 import Layout from "../../components/Layout"
 import SEO from "../../components/SEO"
 import TeamComponent from "../../components/TeamComponent"
+import icon from "../../images/icons/icon.svg"
 
-import isadora from "../../images/2020/team/isadora.jpg"
-import dennis from "../../images/2020/team/dennis.jpg"
-import giovana from "../../images/2020/team/giovana.jpg"
-import guilherme from "../../images/2020/team/guilherme.jpg"
-import marceloreis from "../../images/2020/team/marceloreis.jpg"
-import ramiro from "../../images/2020/team/ramiro.jpg"
-import beatrizbernardino from "../../images/2020/team/beatrizbernardino.jpg"
+import guilherme from "../../images/2020/team/administrativo/guilherme.jpg"
+import ramiro from "../../images/2020/team/administrativo/ramiro.jpg"
+
+import dennis from "../../images/2020/team/mecanica/dennis.jpg"
+import isadora from "../../images/2020/team/mecanica/isadora.jpg"
+import marceloreis from "../../images/2020/team/mecanica/marceloreis.jpg"
+
+import giovana from "../../images/2020/team/eletronica/giovana.jpg"
+
+import beatrizbernardino from "../../images/2020/team/software/beatrizbernardino.jpg"
+import william from "../../images/2020/team/software/william.jpg"
 
 const EquipePage = () => (
     <Layout>
@@ -41,14 +46,21 @@ const EquipePage = () => (
                                            office="Administrativo"
                                            link_area="/2020/project/#administrativo"
                                            class="images-team"
-                                           image={isadora}/>
+                                           image={icon}/>
 
-                             <TeamComponent name="Igor Seramisu"
+                            <TeamComponent name="Igor Seramisu"
                                            link="https://www.linkedin.com/in/igor-seramisu"
                                            office="Administrativo"
                                            link_area="/2020/project/#administrativo"
                                            class="images-team"
-                                           image={isadora}/>
+                                           image={icon}/>
+
+                            <TeamComponent name="Mariana Abrantes"
+                                           link="https://www.linkedin.com/in/mariana-sophia-abrantes/"
+                                           office="Administrativo"
+                                           link_area="/2020/project/#administrativo"
+                                           class="images-team"
+                                           image={icon}/>
 
                             <TeamComponent name="Ramiro Pandullo"
                                            link="https://www.linkedin.com/in/rampandullo30"
@@ -65,15 +77,15 @@ const EquipePage = () => (
                                            office="Controle"
                                            link_area="/2020/project/#controle"
                                            class="images-team team-leader"
-                                           image={isadora}/>
+                                           image={icon}/>
 
 
-                            <TeamComponent name="Alexandre"
-                                           link="https://www.linkedin.com/in/igor-seramisu"
+                            <TeamComponent name="Alexandre Zamberlan"
+                                           link="https://br.linkedin.com/in/alexandre-zamberlan-filho-034b18158"
                                            office="Controle"
                                            link_area="/2020/project/#controle"
                                            class="images-team"
-                                           image={isadora}/>
+                                           image={icon}/>
 
 
                             <TeamComponent name="Enrico Nardi"
@@ -81,7 +93,7 @@ const EquipePage = () => (
                                             office="Controle"
                                             link_area="/2020/project/#controle"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Maurício Ando"
@@ -89,7 +101,7 @@ const EquipePage = () => (
                                             office="Controle"
                                             link_area="/2020/project/#controle"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
                             
                             {/* Equipe de Eletrônica */}
 
@@ -106,7 +118,7 @@ const EquipePage = () => (
                                             office="Eletrônica"
                                             link_area="/2020/project/#eletronica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Gabriel Terhorst"
@@ -114,7 +126,7 @@ const EquipePage = () => (
                                             office="Eletrônica"
                                             link_area="/2020/project/#eletronica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Stephanie Liu"
@@ -122,7 +134,7 @@ const EquipePage = () => (
                                             office="Eletrônica"
                                             link_area="/2020/project/#eletronica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
                             {/* Equipe de Mecânica */}
 
@@ -139,7 +151,7 @@ const EquipePage = () => (
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Isadora Stigliani"
@@ -151,11 +163,11 @@ const EquipePage = () => (
 
 
                             <TeamComponent name="João Guilherme"
-                                            link="https://www.linkedin.com/in/stephanie-liu-469066195/"
+                                            link="http://linkedin.com/in/joaogaraujo"
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Juan Ruiz"
@@ -163,14 +175,14 @@ const EquipePage = () => (
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
                             <TeamComponent name="Luiz Felipe"
                                             link="https://www.linkedin.com/in/luiz-felipe-lazzaron-682676181/"
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             class="images-team"
-                                            image={isadora}/>   
+                                            image={icon}/>   
 
                             
                             <TeamComponent name="Marcelo Lisboa"
@@ -186,7 +198,7 @@ const EquipePage = () => (
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Ricardo Peres"
@@ -194,7 +206,7 @@ const EquipePage = () => (
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
                             {/* Equipe de Software */}
 
@@ -207,11 +219,11 @@ const EquipePage = () => (
 
 
                             <TeamComponent name="Marcelo Cesário"
-                                            link="https://www.linkedin.com/in/beatriz-rianho-bernardino-7198061a4/"
+                                            link="https://www.linkedin.com/in/marcelo-cesario-miguel-48b1131a8/"
                                             office="Software"
                                             link_area="/2020/project/#software"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
                             <TeamComponent name="Nicole Sarvasi"
@@ -219,15 +231,15 @@ const EquipePage = () => (
                                             office="Software"
                                             link_area="/2020/project/#software"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={icon}/>
 
 
-                            <TeamComponent name="William Reis"
+                            <TeamComponent name="William Silva"
                                             link="https://www.linkedin.com/in/williamars/"
                                             office="Software"
                                             link_area="/2020/project/#software"
                                             class="images-team"
-                                            image={isadora}/>
+                                            image={william}/>
 
                         </div>
                     </article>
