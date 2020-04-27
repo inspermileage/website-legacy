@@ -4,6 +4,7 @@ import { FaWhatsapp, FaEnvelope } from "react-icons/fa"
 import { FaInstagram, FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa"
 
 import SEO from "../components/SEO"
+import ContactComponent from "../components/ContactComponent"
 
 const ContactPage = () => (
     <Layout>
@@ -34,82 +35,38 @@ const ContactPage = () => (
                             ></iframe>
 
                             <div class="columns">
-                                <div class="column">
-                                    <a
-                                        class="button is-primary is-outlined is-fullwidth"
-                                        href="https://facebook.com/inspermileage"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <span class="icon">
-                                            <FaFacebook size="fa-2x" />
-                                        </span>
-                                        <span>Facebook</span>
-                                    </a>
-                                </div>
-                                <div class="column">
-                                    <a
-                                        class="button is-primary is-outlined is-fullwidth"
-                                        href="https://instagram.com/inspermileage"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <span class="icon">
-                                            <FaInstagram size="fa-2x" />
-                                        </span>
-                                        <span>Instagram</span>
-                                    </a>
-                                </div>
-                                <div class="column">
-                                    <a
-                                        class="button is-primary is-outlined is-fullwidth"
-                                        href="https://linkedin.com/company/insper-mileage/"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <span class="icon">
-                                            <FaLinkedin size="fa-2x" />
-                                        </span>
-                                        <span>Linkedin</span>
-                                    </a>
-                                </div>
-                                <div class="column">
-                                    <a
-                                        class="button is-primary is-outlined is-fullwidth"
-                                        href="https://github.com/inspermileage"
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                    >
-                                        <span class="icon">
-                                            <FaGithub size="fa-2x" />
-                                        </span>
-                                        <span>GitHub</span>
-                                    </a>
-                                </div>
+                                <ContactComponent link = "https://facebook.com/inspermileage"
+                                                  icon={FaFacebook}
+                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  name = "Facebook" />
+                                
+                                <ContactComponent link = "https://instagram.com/inspermileage"
+                                                  icon = {FaInstagram}
+                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  name = "Instagram" />
+                                
+                                <ContactComponent link = "https://linkedin.com/company/insper-mileage/"
+                                                  icon = {FaLinkedin}
+                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  name = "Linkedin" />
+
+                                <ContactComponent link = "https://github.com/inspermileage"
+                                                  icon = {FaGithub}
+                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  name = "Github" />
                             </div>
+                                
                             <div class="columns">
-                                <div class="column">
-                                    <a
-                                        class="button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
-                                        href="mailto:inspermileage@gmail.com"
-                                    >
-                                        <span class="icon">
-                                            <FaEnvelope size="fa-2x" />
-                                        </span>
-                                        <span>insper.mileage@gmail.com</span>
-                                    </a>
-                                </div>
-                                <div class="column">
-                                    <a
-                                        class="button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
-                                        href="tel:+5511999217548"
-                                    >
-                                        <span class="icon">
-                                            <FaWhatsapp size="fa-2x" />
-                                        </span>
-                                        <span>+55 11 999217548</span>
-                                    </a>
-                                </div>
+                                <ContactComponent link = "mailto:inspermileage@gmail.com"
+                                                  icon = {FaEnvelope}
+                                                  class = "button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                                                  name = "insper.mileage@gmail.com" />
+
+                                <ContactComponent link = "tel:+5511999217548"
+                                                  icon = {FaWhatsapp}
+                                                  class = "button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                                                  name = "+55 11 999217548" />
+            
                             </div>
                         </div>
 
