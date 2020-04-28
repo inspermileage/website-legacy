@@ -2,13 +2,13 @@ import React from "react"
 
 
 
-const PartnerType = function(props){
+const PartnerHeader = function({type}){
     return (
 
         <nav class="level">
             <div class="level-item project-tile-bg">
                 <h1 class="title is-3 partner-cat">
-                    {props.type}
+                    {type}
                 </h1>
             </div>
         </nav>
@@ -17,4 +17,4 @@ const PartnerType = function(props){
 }
 
 
-export default PartnerType
+export default PartnerHeader

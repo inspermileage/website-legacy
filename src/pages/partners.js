@@ -6,9 +6,8 @@ import AtteiLogo from "../images/partners/ateei.png"
 import Eurobikelogo from "../images/partners/eurobike.svg"
 import Energisalogo from "../images/partners/energisa.svg"
 import SEO from "../components/SEO"
-import PartnerApoio from "../components/PartnerApoio"
-import PartnerPlatina from "../components/PartnerPlatina"
-import PartnerType from "../components/PartnerType"
+import PartnerCard from "../components/PartnerCard"
+import PartnerHeader from "../components/PartnerHeader"
 
 
 
@@ -28,9 +27,9 @@ const partners = () => (
                             mais próximos de atingí-lo.
                         </p>
                     </div>
-                     <PartnerType type="PARCEIROS PLATINA" />  
+                     <PartnerHeader type="PARCEIROS PLATINA" />  
                     <div class="columns is-multiline is-centered">
-                        < PartnerPlatina link= "https://www.insper.edu.br"   
+                        < PartnerCard link= "https://www.insper.edu.br"   
                                             img= {InsperLogo}
                                             alt="Insper"
                                             description=" O Insper é uma 
@@ -39,11 +38,12 @@ const partners = () => (
                                             pesquisa. Na graduação, conta com os
                                             cursos de Administração, Economia,
                                             Engenharia da Computação, Engenharia
-                                            Mecânica e Engenharia Mecatrônica." />
+                                            Mecânica e Engenharia Mecatrônica." 
+                                            partnerType= "platina"/>
 
 
 
-                        < PartnerPlatina link= "https://www.eurobike.com.br"  
+                        < PartnerCard link= "https://www.eurobike.com.br"  
                                                 img= {Eurobikelogo}
                                                 alt="Eurobike"
                                                 description= "Criada em 2002,
@@ -51,11 +51,12 @@ const partners = () => (
                                                 especializada em veículos premium e serviços 
                                                 personalizados de alta qualidade.Seu foco é 
                                                 fornecer ao consumidor a melhor experiência 
-                                                possível dentro do setor automobilístico." />
+                                                possível dentro do setor automobilístico." 
+                                                partnerType= "platina"/>
 
 
 
-                        < PartnerPlatina link= "https://www.ateei.com.br/" 
+                        < PartnerCard link= "https://www.ateei.com.br/" 
                                                 img= {AtteiLogo} 
                                                 alt="Ateei"
                                                 description= " A Ateei Group é um grupo visto pelo
@@ -64,9 +65,10 @@ const partners = () => (
                                                 e materiais eletrônicos de forma 
                                                 acessível a todos. Além disso, a  
                                                 Ateei realiza soluções de eletrônica 
-                                                com alta eficiência para terceiros." />
+                                                com alta eficiência para terceiros."
+                                                partnerType= "platina" />
 
-                       < PartnerPlatina link= "https://www.energisa.com.br"
+                       < PartnerCard  link= "https://www.energisa.com.br"
                                                 img= {Energisalogo}
                                                 alt="Energisa"
                                                 description= "Uma das maiores distribuidoras de 
@@ -74,12 +76,13 @@ const partners = () => (
                                                 é responsável por proporcionar ao 
                                                 consumidor soluções inovadoras e 
                                                 sustentáveis, buscando sempre  
-                                                facilitar a vida de seus clientes." />
+                                                facilitar a vida de seus clientes."
+                                                partnerType= "platina" />
                     </div>
 
-                    <PartnerType type="APOIO" />  
+                    <PartnerHeader type="APOIO" />  
                     <div class="columns is-multiline is-centered">
-                        <PartnerApoio img= {AffariLogo} alt= "Affari"/> 
+                        <PartnerCard  img= {AffariLogo} alt= "Affari" partnerType= "apoio"/> 
                     </div>
                 </div>
             </div>
