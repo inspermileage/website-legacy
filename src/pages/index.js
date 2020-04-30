@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Intro from "../views/Intro"
-import PageOptions from "../components/PageOptions"
+import IndexComponent from "../components/IndexComponent"
 
 
 const IndexPage = () => (
@@ -26,28 +26,28 @@ const IndexPage = () => (
             <div class="container">
                 <div class="tile is-ancestor">
                     <div class="tile is-6 is-vertical is-parent">
-                         <PageOptions
+                         <IndexComponent
                           link= "/construction" 
-                          cssName= "tile is-child notification is-primary competition-tile-bg"  
+                          cssName= "competition"  
                           name= "Projeto"
                           />
 
-                         <PageOptions 
+                         <IndexComponent 
                          link= "/prototypes" 
-                         cssName= "tile is-child notification is-primary projeto-tile-bg"  
+                         cssName= "projeto"  
                          name= "Protótipos"
                          />
 
                     </div>
                     <div class="tile is-vertical is-parent">
-                         <PageOptions
+                         <IndexComponent
                          link= "/2020/team" 
-                         cssName= "tile is-child notification is-primary team-tile-bg"  
+                         cssName= "team"  
                          name= "Equipe"
                          />
-                         <PageOptions 
+                         <IndexComponent 
                          link= "/partners" 
-                         cssName= "tile is-child notification is-primary partner-tile-bg"  
+                         cssName= "partner"  
                          name= "Parceiros"
                          />
                          
