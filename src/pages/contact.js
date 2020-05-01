@@ -37,34 +37,34 @@ const ContactPage = () => (
                             <div class="columns">
                                 <ContactComponent link = "https://facebook.com/inspermileage"
                                                   icon={FaFacebook}
-                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  class = {true}
                                                   name = "Facebook" />
                                 
                                 <ContactComponent link = "https://instagram.com/inspermileage"
                                                   icon = {FaInstagram}
-                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  class = {true}
                                                   name = "Instagram" />
                                 
                                 <ContactComponent link = "https://linkedin.com/company/insper-mileage/"
                                                   icon = {FaLinkedin}
-                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  class = {true}
                                                   name = "Linkedin" />
 
                                 <ContactComponent link = "https://github.com/inspermileage"
                                                   icon = {FaGithub}
-                                                  class = "button is-primary is-outlined is-fullwidth"
+                                                  class = {true}
                                                   name = "Github" />
                             </div>
                                 
                             <div class="columns">
                                 <ContactComponent link = "mailto:inspermileage@gmail.com"
                                                   icon = {FaEnvelope}
-                                                  class = "button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                                                  class = {false}
                                                   name = "insper.mileage@gmail.com" />
 
                                 <ContactComponent link = "tel:+5511999217548"
                                                   icon = {FaWhatsapp}
-                                                  class = "button is-black is-inverted is-outlined is-hovered is-active is-fullwidth"
+                                                  class = {false}
                                                   name = "+55 11 999217548" />
             
                             </div>
