@@ -4,7 +4,8 @@ import { Link } from "gatsby"
 
 
 const TeamComponent = function(props) {
-    const{name, link, office, link_area, classe, image} = props
+    const{name, link, office, link_area, classe, image, style} = props
+
     return (
         <div class="column is-3 is-narrow">
             <OutboundLink
@@ -15,6 +16,7 @@ const TeamComponent = function(props) {
                     class={classe}
                     src={image}
                     alt="Imagem do integrante"
+                    style={style}
                 />
                 <p class="team-member">{name}</p>
             </OutboundLink>

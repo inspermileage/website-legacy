@@ -16,7 +16,7 @@ import {
     lucasfontenla
 } from "../../images/2020/team/controle/cont"
 
-// Imagens da Mecânica
+// Imagens de Mecânica
 import {
     dennis,
     isadora,
@@ -238,7 +238,7 @@ const EquipePage = () => (
 
 
                             <TeamComponent name="Nicole Sarvasi"
-                                            link="https://www.linkedin.com/in/beatriz-rianho-bernardino-7198061a4/"
+                                            link="https://www.linkedin.com/in/nicole-sarvasi-alves-da-costa-5446a21a4/"
                                             office="Software"
                                             link_area="/2020/project/#software"
                                             classe="images-team"

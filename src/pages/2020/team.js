@@ -61,7 +61,7 @@ const EquipePage = () => (
                                            office="Capitão"
                                            link_area="/2020/project/#administrativo"
                                            classe="images-team team-leader"
-                                           image={guilherme}/>
+                                           image={guilherme} />
 
                             <TeamComponent name="Danilo Dalapria"
                                            link="https://www.linkedin.com/in/danilo-dalapria/"
@@ -161,7 +161,7 @@ const EquipePage = () => (
                             {/* Equipe de Mecânica */}
 
                             <TeamComponent name="Dennis"
-                                            link="https://www.linkedin.com/in/stephanie-liu-469066195/"
+                                            link=""
                                             office="Mecânica"
                                             link_area="/2020/project/#mecanica"
                                             classe="images-team team-leader"
@@ -249,7 +249,7 @@ const EquipePage = () => (
 
 
                             <TeamComponent name="Nicole Sarvasi"
-                                            link="https://www.linkedin.com/in/beatriz-rianho-bernardino-7198061a4/"
+                                            link="https://www.linkedin.com/in/nicole-sarvasi-alves-da-costa-5446a21a4/"
                                             office="Software"
                                             link_area="/2020/project/#software"
                                             classe="images-team"
