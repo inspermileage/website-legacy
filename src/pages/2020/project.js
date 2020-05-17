@@ -69,22 +69,7 @@ const Project = () => (
                                         <h1 class="title is-2 block-title-bw">
                                             Protótipo Bolt - 2020
                                         </h1>
-                                        Sed ut perspiciatis unde omnis iste
-                                        natus error sit voluptatem accusantium
-                                        doloremque laudantium, totam rem
-                                        aperiam, eaque ipsa quae ab illo
-                                        inventore veritatis et quasi architecto
-                                        beatae vitae dicta sunt explicabo. Nemo
-                                        enim ipsam voluptatem quia voluptas sit
-                                        aspernatur aut odit aut fugit, sed quia
-                                        consequuntur magni dolores eos qui
-                                        ratione voluptatem sequi nesciunt. Neque
-                                        porro quisquam est, qui dolorem ipsum
-                                        quia dolor sit amet, consectetur,
-                                        adipisci velit, sed quia non numquam
-                                        eius modi tempora incidunt ut labore et
-                                        dolore magnam aliquam quaerat
-                                        voluptatem.
+                                        Com o objetivo de atingir a maior eficiência energética possível, o protótipo Bolt é um veículo elétrico que possui um conceito otimizado para garantir uma melhor performance. Com seu formato extremamente aerodinâmico e monocoque feito com fibra de carbono, o protótipo promete o controle de motores e um sistema elétrico de alta eficiência.
                                     </article>
 
                                     <article class="tile is-child">
@@ -164,18 +149,15 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                            O departamento administrativo é responsável por toda gestão administrativa do Insper Mileage.
+                            Seu papel comporta áreas essenciais para gestão de um projeto sendo elas:
+                            • Finanças
+                            • Captação de recursos
+                            • Marketing
+                            • Recursos humanos
+                            • Logística.
+
+                            Para isso busca diariamente gerir o pessoal e as atividades essências do projeto, alem de juntamente a diretoria estruturar o direcionamento estrategico.
                             </div>
                     </div>
                 </div>
@@ -185,18 +167,7 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                            A área de controle do Insper Mileage é responsável pelo desenvolvimento da modelagem física do veículo, projeto da dinâmica veicular como dimensionamento de motores, baterias e estudo da aerodinâmica, assim como o controle de eficiência energética do carro, desempenho em frenagem, aceleração, curvas e consumo de energia. Sendo assim, é nosso papel determinar parâmetros ótimos para o carro ser o mais seguro, rápido e econômico possível, bem como prever o seu comportamento dinâmico antes do protótipo ser finalizado.
                             </div>
                     </div>
                 </div>
@@ -206,18 +177,7 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                            A área de eletrônica é responsável pela organização e produção de qualquer circuito elétrico e eletrônico do protótipo, podendo ser dividida em três setores principais, no caso, acionamento do motor, instrumentação e segurança. A parte de acionamento do motor, consiste no estudo e confecção de circuitos que permitem a alimentação do motor através da bateria e o controle de funcionamento do mesmo, como velocidade. A parte de instrumentação é resumida em circuitos de sensores capazes de captar variáveis importantes do carro para a análise dos dados. Por fim, a segurança consiste em toda e qualquer aplicação de precaução de incidentes com os componentes elétricos do carro.
                             </div>
                     </div>
                 </div>
@@ -227,18 +187,7 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                            Fazemos desde dimensionamentos e projeto dos componentes mecânicos do carro (chassis, sistemas de transmissão, direção e carenagem), seleção de componentes a serem comprados, além da fabricação própria de partes do protótipo (por usinagem, corte à plasma, laminação de compósitos, entre outros). A montagem do carro é realizada na própria oficina.
                         </div>
                     </div>
                 </div>
@@ -248,18 +197,7 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                            A área de software é responsável pelo sistema de telemetria do carro. Para isso, nos dividimos em três subáreas: backend, responsável por fazer o tratamento de dados e armazená-los; frontend, responsável por criar uma interface com o piloto e uma dashboard para a equipe, capaz de atualizar os dados em tempo real; e, por fim, a terceira subárea realiza uma análise de dados para garantir que o carro está tendo a melhor eficiência possível.
                         </div>
                     </div>
                 </div>
