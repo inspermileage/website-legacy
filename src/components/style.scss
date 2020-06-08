@@ -324,11 +324,20 @@ footer.footer-dark {
 
 .images-team {
     display: flex;
-    width: 7rem;
-    height: 7rem;
+    width: 7.9rem;
+    height: 7.9rem;
     margin: 0 auto;
     border-radius: 50%;
+    box-shadow: 0 0 6.5px #000;
+    object-fit: cover;
+    object-position: 87% 0;
 }
+
+.images-team:after{
+    content:"";
+    padding-bottom:100%;
+    display:block;
+  }
 
 .titles-team {
     display: flex;
@@ -384,5 +393,5 @@ footer.footer-dark {
 }
 
 .team-leader{
-    border: 5px solid rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
 }
