@@ -122,21 +122,26 @@ const Project = () => (
                                      • Captação de recursos
                                      • Marketing
                                      • Recursos humanos
-                                     • Logística.
+                                     • Logística. 
          
-                                     Para isso busca diariamente gerir o pessoal e as atividades essências do projeto, alem de juntamente a diretoria estruturar o direcionamento estrategico." />
+                                     Para isso busca diariamente gerir o pessoal e as atividades essências do projeto, alem de juntamente a diretoria estruturar o direcionamento estrategico."
+                                     adm = {true} />
 
                 <Prototype2Component titulo = "Controle"
-                                     info = "A área de controle do Insper Mileage é responsável pelo desenvolvimento da modelagem física do veículo, projeto da dinâmica veicular como dimensionamento de motores, baterias e estudo da aerodinâmica, assim como o controle de eficiência energética do carro, desempenho em frenagem, aceleração, curvas e consumo de energia. Sendo assim, é nosso papel determinar parâmetros ótimos para o carro ser o mais seguro, rápido e econômico possível, bem como prever o seu comportamento dinâmico antes do protótipo ser finalizado." />
+                                     info = "A área de controle do Insper Mileage é responsável pelo desenvolvimento da modelagem física do veículo, projeto da dinâmica veicular como dimensionamento de motores, baterias e estudo da aerodinâmica, assim como o controle de eficiência energética do carro, desempenho em frenagem, aceleração, curvas e consumo de energia. Sendo assim, é nosso papel determinar parâmetros ótimos para o carro ser o mais seguro, rápido e econômico possível, bem como prever o seu comportamento dinâmico antes do protótipo ser finalizado."
+                                     adm = {false}/>
 
                 <Prototype2Component titulo = "Eletrônica"
-                                     info = "A área de eletrônica é responsável pela organização e produção de qualquer circuito elétrico e eletrônico do protótipo, podendo ser dividida em três setores principais, no caso, acionamento do motor, instrumentação e segurança. A parte de acionamento do motor, consiste no estudo e confecção de circuitos que permitem a alimentação do motor através da bateria e o controle de funcionamento do mesmo, como velocidade. A parte de instrumentação é resumida em circuitos de sensores capazes de captar variáveis importantes do carro para a análise dos dados. Por fim, a segurança consiste em toda e qualquer aplicação de precaução de incidentes com os componentes elétricos do carro." />
+                                     info = "A área de eletrônica é responsável pela organização e produção de qualquer circuito elétrico e eletrônico do protótipo, podendo ser dividida em três setores principais, no caso, acionamento do motor, instrumentação e segurança. A parte de acionamento do motor, consiste no estudo e confecção de circuitos que permitem a alimentação do motor através da bateria e o controle de funcionamento do mesmo, como velocidade. A parte de instrumentação é resumida em circuitos de sensores capazes de captar variáveis importantes do carro para a análise dos dados. Por fim, a segurança consiste em toda e qualquer aplicação de precaução de incidentes com os componentes elétricos do carro."
+                                     adm = {false} />
 
                 <Prototype2Component titulo = "Mecânica"
-                                     info = "Fazemos desde dimensionamentos e projeto dos componentes mecânicos do carro (chassis, sistemas de transmissão, direção e carenagem), seleção de componentes a serem comprados, além da fabricação própria de partes do protótipo (por usinagem, corte à plasma, laminação de compósitos, entre outros). A montagem do carro é realizada na própria oficina." />
+                                     info = "Fazemos desde dimensionamentos e projeto dos componentes mecânicos do carro (chassis, sistemas de transmissão, direção e carenagem), seleção de componentes a serem comprados, além da fabricação própria de partes do protótipo (por usinagem, corte à plasma, laminação de compósitos, entre outros). A montagem do carro é realizada na própria oficina." 
+                                     adm = {false}/>
 
                 <Prototype2Component titulo = "Software"
-                                     info = "A área de software é responsável pelo sistema de telemetria do carro. Para isso, nos dividimos em três subáreas: backend, responsável por fazer o tratamento de dados e armazená-los; frontend, responsável por criar uma interface com o piloto e uma dashboard para a equipe, capaz de atualizar os dados em tempo real; e, por fim, a terceira subárea realiza uma análise de dados para garantir que o carro está tendo a melhor eficiência possível." />
+                                     info = "A área de software é responsável pelo sistema de telemetria do carro. Para isso, nos dividimos em três subáreas: backend, responsável por fazer o tratamento de dados e armazená-los; frontend, responsável por criar uma interface com o piloto e uma dashboard para a equipe, capaz de atualizar os dados em tempo real; e, por fim, a terceira subárea realiza uma análise de dados para garantir que o carro está tendo a melhor eficiência possível." 
+                                     adm = {false}/>
 
 
             </div>
