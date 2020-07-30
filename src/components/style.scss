@@ -51,6 +51,7 @@
     padding: 5px;
     font-size: 2em;
     width: min-content;
+    height: fit-content;
     border: 4px solid $secondary;
 }
 
@@ -315,6 +316,7 @@ footer.footer-dark {
 .team-area {
     display: flex;
     color: black;
+    align-items: center;
     justify-content: center;
     &:hover {
         color: $primary;
@@ -395,3 +397,25 @@ footer.footer-dark {
 .team-leader{
     border: 4px solid rgb(0, 0, 0);
 }
+
+.container-team{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    justify-content: center;
+
+}
+
+.block-title-bw {
+    margin: 50px 0 5px;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 2em;
+    width: min-content;
+    height: fit-content;
+    border: 4px solid $secondary;
+}
+
+.professor{
+    text-align:center ;
+}
+
