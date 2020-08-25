@@ -52,7 +52,7 @@ class Header extends React.Component {
                     <div
                         className={`navbar-menu ${
                             this.state.activeMenu ? "is-active" : ""
-                            }`}
+                        }`}
                     >
                         <div class="navbar-end">
                             <Link to="/" className="navbar-item is-tab">
@@ -78,7 +78,10 @@ class Header extends React.Component {
                                     >
                                         Protótipos
                                     </Link>
-                                    <Link to="/2020/team" className="navbar-item">
+                                    <Link
+                                        to="/2020/team"
+                                        className="navbar-item"
+                                    >
                                         Equipe
                                     </Link>
                                 </div>
@@ -86,10 +89,7 @@ class Header extends React.Component {
                             <Link to="/partners" className="navbar-item is-tab">
                                 Parceiros
                             </Link>
-                            <Link
-                                to="/construction"
-                                className="navbar-item is-tab"
-                            >
+                            <Link to="/blog" className="navbar-item is-tab">
                                 Blog
                             </Link>
                             <Link to="/contact" className="navbar-item is-tab">
