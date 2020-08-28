@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from "react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-
+import Layout from "../components/Layout"
 function Blog() {
     return (
-        <div>
-            <Header />
-            <div style={{ marginTop: 100 }}>
-                <text>OI </text>
-            </div>
-
-            <Footer />
-        </div>
+        <Layout>
+            <text> oi</text>
+        </Layout>
     )
 }
 export default Blog
