@@ -2,17 +2,15 @@ import React from "react"
 import { graphql } from "gatsby"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import Img from "gatsby-image"
-import Layout from "../components/Layout"
-import Head from "../components/head"
-
-
+import Layout from "../components/layout"
 import SEO from "../components/SEO"
 
 export const query = graphql`
   query($slug: String!) {
-    contentfulProduct(slug: { eq: $slug }) {
+    contentfulBlog(slug: { eq: $slug }) {
       title
-      media {
+      date(formatString: "MMMM Do, YYYY")
+      image {
         fixed(width: 300, height: 300) {
           base64
           src
@@ -20,11 +18,8 @@ export const query = graphql`
           height
           width
         }
-        file{
-          url
-        }
       }
-      body {
+      description {
         json
       }
     }
@@ -42,16 +37,19 @@ const Blog = props => {
     },
   }
 
+
   return (
     <Layout>
-      <Head title={props.data.contentfulProduct.title} />
-      <h1>{props.data.contentfulProduct.title}</h1>
-      <Img 
-        fixed={props.data.contentfulProduct.media.fixed}/>
-      {documentToReactComponents(
-        props.data.contentfulProduct.body.json,
+      <SEO title={props.data.contentfulBlog.title} />
+      <h1>{props.data.contentfulBlog.title}</h1>
+      <div>
+        <Img class="img"
+        fixed={props.data.contentfulBlog.media.fixed}/>
+      </div>
+      <p>{documentToReactComponents(
+        props.data.contentfulBlogjson,
         options
-      )}
+      )}</p>
     </Layout>
   )
 }
