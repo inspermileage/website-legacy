@@ -6,21 +6,28 @@ import Layout from "../components/layout"
 import SEO from "../components/SEO"
 
 export const query = graphql`
-  query($slug: String!) {
-    contentfulBlog(slug: { eq: $slug }) {
-      title
-      date(formatString: "MMMM Do, YYYY")
-      image {
-        fixed(width: 300, height: 300) {
-          base64
-          src
-          srcSet
-          height
-          width
-        }
+  query(
+    $slug: String!
+  ){
+    contentfulBlog(
+      slug:{
+        eq:$slug
       }
-      description {
+    ){
+      title
+      slug
+      date(formatString:"MMMM Do, YYYY")
+      description{
         json
+      }
+      image{
+        fixed {
+          base64
+          tracedSVG
+          aspectRatio
+          srcWebp
+          srcSetWebp
+        }
       }
     }
   }
@@ -29,7 +36,7 @@ export const query = graphql`
 const Blog = props => {
   const options = {
     renderNode: {
-      "embedded-asset-block": node => {
+      "embedded-asset-block": (node) => {
         const alt = node.data.target.fields.title["en-US"]
         const url = node.data.target.fields.file["en-US"].url
         return <img alt={alt} src={url} />
@@ -40,16 +47,19 @@ const Blog = props => {
 
   return (
     <Layout>
-      <SEO title={props.data.contentfulBlog.title} />
-      <h1>{props.data.contentfulBlog.title}</h1>
-      <div>
-        <Img class="img"
-        fixed={props.data.contentfulBlog.media.fixed}/>
+    <section class="hero is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1>{props.data.contentfulBlog.title}</h1>
+          <p>{props.data.contentfulBlog.date}</p>
+          <div>
+            <Img class="img"
+            fixed={props.data.contentfulBlog.image.fixed}/>
+          </div>
+          {documentToReactComponents(props.data.contentfulBlog.description.json,options)}
+        </div>
       </div>
-      <p>{documentToReactComponents(
-        props.data.contentfulBlogjson,
-        options
-      )}</p>
+    </section>
     </Layout>
   )
 }
