@@ -30,8 +30,9 @@ const BlogPage=()=>{
 
   return (
     <Layout>
-      <section class="hero is-medium">
-        <div class="hero-body">
+      <section class="section">
+        <div class = "hero-body">
+        <div class="hero is-medium">
           <div class="container">
             <ol>
               {data.allContentfulBlog.edges.map((edge)=>{
@@ -45,6 +46,7 @@ const BlogPage=()=>{
                 )
               })}
             </ol>
+          </div>
           </div>
         </div>
       </section>
