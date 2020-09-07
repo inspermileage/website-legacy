@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/Layout"
 import {Link, graphql, useStaticQuery } from "gatsby"
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-
-
+import SEO from "../components/SEO"
+import Img from "gatsby-image"
 const BlogPage=()=>{
   const data= useStaticQuery(graphql`
     query{
@@ -30,14 +29,22 @@ const BlogPage=()=>{
 
   return (
     <Layout>
-      <section class="section">
+      <SEO
+            title="Blog"
+            description="Insper Mileage blog"
+            lang="pt-br"
+            meta={[
+                `Insper`,
+                `blog`,
+                `Insper Mileage`,
+            ]}
+        />
         <div class = "hero-body">
-        <div class="hero is-medium">
-          <div class="container">
-            <ol>
+        <h1 class="title is-2 block-title-bw">Postagens</h1>
+            <ol class= "posts">
               {data.allContentfulBlog.edges.map((edge)=>{
                  return(
-                  <li>
+                  <li class= "post">
                     <Link to={`/blog/${edge.node.slug}`}>
                       <h2>{edge.node.title}</h2>
                       <p>{edge.node.date}</p>
@@ -47,9 +54,7 @@ const BlogPage=()=>{
               })}
             </ol>
           </div>
-          </div>
-        </div>
-      </section>
+
     </Layout>
   )
 }

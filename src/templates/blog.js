@@ -47,11 +47,21 @@ const Blog = props => {
 
   return (
     <Layout>
+      <SEO
+            title={props.data.contentfulBlog.title}
+            description="Insper Mileage post"
+            lang="pt-br"
+            meta={[
+                `Insper`,
+                `post`,
+                `Insper Mileage`,
+            ]}
+        />
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
-          <h1>{props.data.contentfulBlog.title}</h1>
-          <p>{props.data.contentfulBlog.date}</p>
+          <h1 class="title">{props.data.contentfulBlog.title}</h1>
+          <h2 class="subtitle">{props.data.contentfulBlog.date}</h2>
           <div>
             <Img class="img"
             fixed={props.data.contentfulBlog.image.fixed}/>
