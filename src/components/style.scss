@@ -231,11 +231,17 @@
     }
 
     a:hover {
-        background: #e4e4e4;
+        background: $primary;
+        color: #000000;
     }
 
     h2 {
         margin-bottom: 0;
+        color: #777777;
+        font-style: italic;
+    }
+    h2:hover{
+        color: #000000;
     }
 
     p {
@@ -243,7 +249,17 @@
         font-size: .8rem;
         font-style: italic;
     }
-
+    img{
+        border: 0.2rem solid #000000;
+    }
+}
+.post-to-select:hover{
+    h2{
+        color:#000000;
+    }
+    h1{
+        color: #ffffff;
+    }
 }
 
 .post {

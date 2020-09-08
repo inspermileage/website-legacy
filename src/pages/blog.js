@@ -22,6 +22,10 @@ const BlogPage=()=>{
                 aspectRatio
                 srcWebp
                 srcSetWebp
+                height
+                width
+                src
+                srcSet
               }
             }
           }
@@ -49,9 +53,10 @@ const BlogPage=()=>{
                  return(
                   <li class= "post-to-select">
                     <Link to={`/blog/${edge.node.slug}`}>
-                      <h2>{edge.node.title}</h2>
-                      <p>{edge.node.date}</p>
-                      <img src ={edge.node.image.file.url}  />
+                      <h1 class ="title">{edge.node.title}</h1>
+                      <h2 class ="subtitle">{edge.node.date}</h2>
+                      
+                      {/* <Img fixed={edge.node.media.fixed}/> */}
                     </Link>
                   </li>
                 )
