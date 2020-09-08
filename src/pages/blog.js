@@ -13,6 +13,9 @@ const BlogPage=()=>{
             date(formatString:"MMMM Do, YYYY")
             slug
             image{
+              file {
+                url
+              }
               fixed {
                 base64
                 tracedSVG
@@ -44,10 +47,11 @@ const BlogPage=()=>{
             <ol class= "posts">
               {data.allContentfulBlog.edges.map((edge)=>{
                  return(
-                  <li class= "post">
+                  <li class= "post-to-select">
                     <Link to={`/blog/${edge.node.slug}`}>
                       <h2>{edge.node.title}</h2>
                       <p>{edge.node.date}</p>
+                      <img src ={edge.node.image.file.url}  />
                     </Link>
                   </li>
                 )

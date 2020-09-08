@@ -21,6 +21,10 @@ export const query = graphql`
         json
       }
       image{
+        file {
+          url
+        }
+        title
         fixed {
           base64
           tracedSVG
@@ -59,13 +63,12 @@ const Blog = props => {
         />
     <section class="hero is-medium">
       <div class="hero-body">
-        <div class="container">
+        <div class="post">
           <h1 class="title">{props.data.contentfulBlog.title}</h1>
           <h2 class="subtitle">{props.data.contentfulBlog.date}</h2>
-          <div>
-            <Img class="img"
-            fixed={props.data.contentfulBlog.image.fixed}/>
-          </div>
+            <img src ={props.data.contentfulBlog.image.file.url} />
+            
+          
           {documentToReactComponents(props.data.contentfulBlog.description.json,options)}
         </div>
       </div>
