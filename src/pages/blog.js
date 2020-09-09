@@ -55,7 +55,7 @@ const BlogPage = () => {
                                                 {edge.node.title}
                                             </h1>
                                             <h2 class="subtitle">
-                                                algum subtitulo |{" "}
+                                                algum subtitulo|{" "}
                                                 {edge.node.date}
                                             </h2>
                                         </div>
