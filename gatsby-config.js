@@ -12,6 +12,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `0x7pxbwmphqh`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: `J1U7yMxTPKXSFYX1av0g8FTtbHm-RTmo0kBukNjhaPw`,
+      },
+    },
+    
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.title,
@@ -32,9 +41,31 @@ module.exports = {
       },
     },
     "gatsby-plugin-sass",
+    {
+        resolve:'gatsby-source-filesystem',
+        options:{
+          name:'src',
+          path:`${__dirname}/src/`
+      }
+    },
     "gatsby-plugin-offline",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: 'gatsby-transformer-remark',
+      options:{
+        plugin:[
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options:{
+              maxWidth: 750,
+              linkImagesToOriginal: false
+            }
+          }
+        ]
+      }
+    }
   ],
 }
