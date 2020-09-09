@@ -53,10 +53,15 @@ const BlogPage=()=>{
                  return(
                   <li class= "post-to-select">
                     <Link to={`/blog/${edge.node.slug}`}>
-                      <h1 class ="title">{edge.node.title}</h1>
-                      <h2 class ="subtitle">{edge.node.date}</h2>
-                      
-                      {/* <Img fixed={edge.node.media.fixed}/> */}
+                      <div class="columns">
+                        <div class="column is-one-third">
+                        <h1 class ="title">{edge.node.title}</h1>
+                        <h2 class ="subtitle">algum subtitulo | {edge.node.date}</h2>
+                        </div>
+                        <div class="column">
+                           <Img fixed={edge.node.image.fixed}/> 
+                        </div>
+                      </div>
                     </Link>
                   </li>
                 )
