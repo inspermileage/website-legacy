@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
 			enableDeclineButton
 		>
 			Nosso site utiliza cookies para o controle de tráfego de usuários e para garantir que você tenha uma melhor
-			experiência. Seus dados não serão compartilhados com terceiros.
+			experiência, através do google analytics. Seus dados não serão compartilhados com terceiros.
 		</CookieConsent>
 		<Header />
 		{children}

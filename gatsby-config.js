@@ -48,14 +48,14 @@ module.exports = {
 				icon: config.icon
 			}
 		},
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				trackingId: process.env.GA,
-				head: true,
-				anonymize: true
-			}
-		},
+		// {
+		// 	resolve: `gatsby-plugin-google-analytics`,
+		// 	options: {
+		// 		trackingId: process.env.GA,
+		// 		head: true,
+		// 		anonymize: true
+		// 	}
+		// },
 
 		'gatsby-plugin-sass',
 		{
