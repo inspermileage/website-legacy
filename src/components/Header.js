@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import logo from "../images/logo.svg"
-
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 const NavbarBurger = props => (
     <a
         role="button"
@@ -35,7 +35,7 @@ class Header extends React.Component {
             >
                 <div class="container">
                     <div className="navbar-brand">
-                        <Link to="/" className="navbar-item">
+                        <OutboundLink href="/" className="navbar-item">
                             <figure className="image">
                                 <img
                                     src={logo}
@@ -43,7 +43,7 @@ class Header extends React.Component {
                                     style={{ width: "147px" }}
                                 />
                             </figure>
-                        </Link>
+                        </OutboundLink>
                         <NavbarBurger
                             active={this.state.activeMenu}
                             toggleMenu={this.toggleMenu}
@@ -55,46 +55,47 @@ class Header extends React.Component {
                         }`}
                     >
                         <div class="navbar-end">
-                            <Link to="/" className="navbar-item is-tab">
+                            <OutboundLink href="/" className="navbar-item is-tab">
                                 Início
-                            </Link>
+                            </OutboundLink>
+
                             <div class="navbar-item has-dropdown is-hoverable">
-                                <Link
-                                    to="/construction"
+                                <OutboundLink
+                                    href="/construction"
                                     className="navbar-link"
                                 >
                                     Sobre
-                                </Link>
+                                </OutboundLink>
                                 <div class="navbar-dropdown">
-                                    <Link
-                                        to="/construction"
+                                    <OutboundLink
+                                        href="/construction"
                                         className="navbar-item"
                                     >
                                         Competição
-                                    </Link>
-                                    <Link
-                                        to="/prototypes"
+                                    </OutboundLink>
+                                    <OutboundLink
+                                        href="/prototypes"
                                         className="navbar-item"
                                     >
                                         Protótipos
-                                    </Link>
-                                    <Link
-                                        to="/2020/team"
+                                    </OutboundLink>
+                                    <OutboundLink
+                                        href="/2020/team"
                                         className="navbar-item"
                                     >
                                         Equipe
-                                    </Link>
+                                    </OutboundLink>
                                 </div>
                             </div>
-                            <Link to="/partners" className="navbar-item is-tab">
+                            <OutboundLink href="/partners" className="navbar-item is-tab">
                                 Parceiros
-                            </Link>
-                            <Link to="/blog" className="navbar-item is-tab">
+                            </OutboundLink>
+                            <OutboundLink href="/blog" className="navbar-item is-tab">
                                 Blog
-                            </Link>
-                            <Link to="/contact" className="navbar-item is-tab">
+                            </OutboundLink>
+                            <OutboundLink href="/contact" className="navbar-item is-tab">
                                 Contato
-                            </Link>
+                            </OutboundLink>
                         </div>
                     </div>
                 </div>
