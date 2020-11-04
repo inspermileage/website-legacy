@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import prototype_2020 from "../images/car.svg"
-
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import SEO from "../components/SEO"
 
 const Project = () => (
@@ -45,7 +45,7 @@ const Project = () => (
                     </nav>
                     <div class="tile is-ancestor">
                         <div class="tile is-vertical is-12">
-                            <Link to="/2020/project">
+                            <OutboundLink href="/2020/project">
                                 <div class="tile">
                                     <div class="tile is-parent is-vertical">
                                         <article class="tile is-child notification is-primary project-tile-bg">
@@ -97,7 +97,7 @@ const Project = () => (
                                         </article>
                                     </div>
                                 </div>
-                            </Link>
+                            </OutboundLink>
                         </div>
                     </div>
                 </div>
