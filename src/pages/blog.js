@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import SEO from "../components/SEO"
 import Img from "gatsby-image"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
         query {
@@ -48,24 +49,26 @@ const BlogPage = () => {
                     {data.allContentfulBlog.edges.map((edge) => {
                         return (
                             <li class="post-to-select">
-                                <Link to={`/blog/${edge.node.slug}`}>
-                                    <div class="columns">
-                                        <div class="column is-one-third">
-                                            <h1 class="title">
-                                                {edge.node.title}
-                                            </h1>
-                                            <h2 class="subtitle">
-                                                algum subtitulo|{" "}
-                                                {edge.node.date}
-                                            </h2>
+                                <OutboundLink>
+                                    <Link to={`/blog/${edge.node.slug}`}>
+                                        <div class="columns">
+                                            <div class="column is-one-third">
+                                                <h1 class="title">
+                                                    {edge.node.title}
+                                                </h1>
+                                                <h2 class="subtitle">
+                                                    algum subtitulo|{" "}
+                                                    {edge.node.date}
+                                                </h2>
+                                            </div>
+                                            <div class="column">
+                                                <Img
+                                                    fixed={edge.node.image.fixed}
+                                                />
+                                            </div>
                                         </div>
-                                        <div class="column">
-                                            <Img
-                                                fixed={edge.node.image.fixed}
-                                            />
-                                        </div>
-                                    </div>
-                                </Link>
+                                    </Link>
+                                </OutboundLink>
                             </li>
                         )
                     })}
