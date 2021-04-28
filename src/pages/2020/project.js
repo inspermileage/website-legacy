@@ -14,20 +14,24 @@ import prototype2_thumb from "../../images/2020/project/prototype-2-thumb.png"
 import prototype3 from "../../images/2020/project/prototype-3.png"
 import prototype3_thumb from "../../images/2020/project/prototype-3-thumb.png"
 
+import prototypev2_1 from "../../images/2020/project/prototypev2-1.png"
+import prototypev2_2 from "../../images/2020/project/prototypev2-2.png"
+import prototypev2_3 from "../../images/2020/project/prototypev2-3.png"
+
 import icon from "../../images/icons/icon.svg"
 
 const images = [
     {
-        original: prototype1,
-        thumbnail: prototype1_thumb,
+        original: prototypev2_1,
+        thumbnail: prototypev2_1,
     },
     {
-        original: prototype2,
-        thumbnail: prototype2_thumb,
+        original: prototypev2_2,
+        thumbnail: prototypev2_2,
     },
     {
-        original: prototype3,
-        thumbnail: prototype3_thumb,
+        original: prototypev2_3,
+        thumbnail: prototypev2_3,
     },
 ]
 
@@ -164,18 +168,11 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                        O núcleo do Administrativo é responsável por organizar, promover, captar e gerir 
+                        os recursos financeiros, humanos e materiais necessários para a coordenação e progressão 
+                        saudável do projeto. Está organizado nas áreas: Recursos Humanos, Captação de Recursos, 
+                        Financeiro, Logística e Marketing.
+                            
                             </div>
                     </div>
                 </div>
@@ -185,18 +182,9 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                        O subsistema de controle tem a função de modelar fisicamente o comportamento do
+                        veículo em questão de performance energética e dinâmica veicular; projetar o sistema de
+                        controle; e projetar a estratégia de competição.
                             </div>
                     </div>
                 </div>
@@ -206,18 +194,9 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                        O subsistema de Eletrônica é responsável pela elaboração e execução da
+                        fonte de energia para carro (baterias), bem como o controle de seu acionamento, como também
+                        o acionamento de potência para os motores elétricos (rodas).
                             </div>
                     </div>
                 </div>
@@ -227,18 +206,13 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                        O subsistema de Mecânica é responsável por toda a parte mecânica do veículo, que inclui
+                        o sistema de transmissão, o sistema de direção, o sistema de freios e o chassi. Dentro de
+                        cada uma dessas partes a equipe deve analisar possíveis soluções para o veículo e definir
+                        as que melhor atendem aos objetivos do projeto. Além disso, o subsistema deve
+                        dimensionar geométrica e estruturalmente todos os componentes envolvidos para,
+                        então, dar início à etapa de projeto desses mesmos componentes, que é seguida pelas
+                        etapas de fabricação e encomendas de peças.
                         </div>
                     </div>
                 </div>
@@ -248,18 +222,11 @@ const Project = () => (
                     </h3>
                     <div class="columns">
                         <div class="column">
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae ab illo inventore
-                            veritatis et quasi architecto beatae vitae dicta
-                            sunt explicabo. Nemo enim ipsam voluptatem quia
-                            voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione
-                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, consectetur,
-                            adipisci velit, sed quia non numquam eius modi
-                            tempora incidunt ut labore et dolore magnam aliquam
-                            quaerat voluptatem.
+                            Este subsistema é responsável pela aquisição e análise dos dados provenientes
+                            do veículo, de forma a informar em tempo real o piloto e a equipe os detalhes cruciais
+                            do carro. Dentro dessa função, surge a necessidade de criar uma interface gráfica
+                            para o piloto, um sistema de comunicação dele com a equipe no Box, uma dashboard
+                            para a equipe ver os dados em tempo real.
                         </div>
                     </div>
                 </div>
