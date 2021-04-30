@@ -1,507 +1,507 @@
 // Importing variables
-@import "./variables.scss";
+@import './variables.scss';
 
 // Importing Bulma from node_modules
-@import "~bulma/bulma.sass";
-@import "~bulma-extensions/src/sass/index.sass";
+@import '~bulma/bulma.sass';
+@import '~bulma-extensions/src/sass/index.sass';
 
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
 
 .SectionBlock {
-    position: relative;
-    margin-top: 45px;
+  position: relative;
+  margin-top: 45px;
 }
 
 .SectionBlock #introAngled {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transform: skewY(-6deg);
-    transform-origin: 0;
-    position: absolute;
-    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: skewY(-6deg);
+  transform-origin: 0;
+  position: absolute;
+  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
 }
 
 .SectionBlock .introBG {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../images/introbg5.svg) repeat center center fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/introbg5.svg) repeat center center fixed;
 }
 
 .SectionBlock .competitionBG {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../images/competitionbg2.svg) repeat center center fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/competitionbg2.svg) repeat center center fixed;
 }
 
 .SectionBlock .teamBG {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../images/teambg.svg) repeat center center fixed;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../images/teambg.svg) repeat center center fixed;
+  background-size: cover;
 }
 
 .block-title-bw {
-    margin: 20px 0 15px;
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 2em;
-    width: min-content;
-    height: fit-content;
-    border: 4px solid $secondary;
+  margin: 20px 0 15px;
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 2em;
+  width: min-content;
+  height: fit-content;
+  border: 4px solid $secondary;
 }
 
 .block-title-wb {
-    margin: 20px 0 15px;
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 2em;
-    width: min-content;
-    border: 4px solid white;
-    color: white;
+  margin: 20px 0 15px;
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 2em;
+  width: min-content;
+  border: 4px solid white;
+  color: white;
 }
 
 .SectionBlock #competitionAngled {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transform: skew(0, 3deg);
-    position: absolute;
-    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-    background: $secondary;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: skew(0, 3deg);
+  position: absolute;
+  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+  background: $secondary;
 }
 
 .SectionBlock #TeamAngled {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transform: skew(0, -3deg);
-    position: absolute;
-    box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transform: skew(0, -3deg);
+  position: absolute;
+  box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
 }
 
 .project-tile-bg {
-    background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
+  background: linear-gradient(150deg, #f67049 0%, #e14b2e 99%);
 }
 
 .competition-tile-bg {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    background: url(../images/competicao.jpeg) center center;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: url(../images/competicao.jpeg) center center;
+  background-size: cover;
 }
 
 .team-tile-bg {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    background: url(../images/time.jpeg) center center;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: url(../images/time.jpeg) center center;
+  background-size: cover;
 }
 
 .partner-tile-bg {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    background: url(../images/partnership.jpeg) center center;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: url(../images/partnership.jpeg) center center;
+  background-size: cover;
 }
 
 .projeto-tile-bg {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    background: url(../images/project.png) center center;
-    background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: url(../images/project.png) center center;
+  background-size: cover;
 }
 
 .card {
-    margin: 1rem;
-    border-radius: 4px;
-    padding: 2rem;
+  margin: 1rem;
+  border-radius: 4px;
+  padding: 2rem;
 }
 
 .partner-cat {
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 2em;
-    width: min-content;
-    color: white;
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 2em;
+  width: min-content;
+  color: white;
 }
 
 .image-platina {
-    margin: auto;
+  margin: auto;
 
-    text-align: center;
-    img {
-        height: 80px;
-    }
+  text-align: center;
+  img {
+    height: 80px;
+  }
 }
 .image-ouro {
-    margin: auto;
-    text-align: center;
-    img {
-        height: 70px;
-    }
+  margin: auto;
+  text-align: center;
+  img {
+    height: 70px;
+  }
 }
 
 .image-bronze {
-    margin: auto;
-    text-align: center;
-    img {
-        height: 60px;
-    }
+  margin: auto;
+  text-align: center;
+  img {
+    height: 60px;
+  }
 }
 
 .image-apoio {
-    margin: auto;
-    text-align: center;
-    img {
-        height: 50px;
-    }
+  margin: auto;
+  text-align: center;
+  img {
+    height: 50px;
+  }
 }
 
 // Team scrolling cards component
 .scrolling {
-    padding: 10px 50px;
-    display: flex;
-    overflow: visible;
-    overflow-x: auto;
-    width: 100%;
-    border-width: 2rem;
-    justify-content: center;
+  padding: 10px 50px;
+  display: flex;
+  overflow: visible;
+  overflow-x: auto;
+  width: 100%;
+  border-width: 2rem;
+  justify-content: center;
 }
 .has-horizontal-scroll {
-    position: relative;
-    margin: 50px 0;
+  position: relative;
+  margin: 50px 0;
 }
 
 .scrolling-wrapper-flexbox {
-    padding: 10px 30px;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: visible;
-    overflow-x: auto;
-    width: 100%;
-    -webkit-overflow-scrolling: touch;
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: visible;
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 .scrolling-wrapper-flexbox .feature-card {
-    z-index: 9;
-    background: white;
-    flex: 0 0 auto;
-    padding: 30px 16px;
-    margin-right: 2%;
-    border: 1px solid white;
-    width: 18.5%;
-    border-radius: 4px;
-    display: inline-block;
-    border: 1px solid #dedede;
-    text-align: center;
-    position: relative;
+  z-index: 9;
+  background: white;
+  flex: 0 0 auto;
+  padding: 30px 16px;
+  margin-right: 2%;
+  border: 1px solid white;
+  width: 18.5%;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #dedede;
+  text-align: center;
+  position: relative;
 }
 
 .scrolling-wrapper-flexbox .feature-card figure {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 // Blog style
 
 .posts {
-    list-style-type: none;
-    margin: 0;
-    width: 100%;
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
 }
 
 .post-to-select {
-    margin: 1rem 0;
+  margin: 1rem 0;
 
-    a {
-        background: #f4f4f4;
-        color: #000000;
-        display: block;
-        padding: 1rem;
-        text-decoration: none;
-    }
+  a {
+    background: #f4f4f4;
+    color: #000000;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+  }
 
-    a:hover {
-        background: $primary;
-        color: #000000;
-    }
+  a:hover {
+    background: $primary;
+    color: #000000;
+  }
 
-    h2 {
-        margin-bottom: 0;
-        color: #777777;
-        font-style: italic;
-    }
-    h2:hover {
-        color: #000000;
-    }
+  h2 {
+    margin-bottom: 0;
+    color: #777777;
+    font-style: italic;
+  }
+  h2:hover {
+    color: #000000;
+  }
 
-    p {
-        color: #777777;
-        font-size: 0.8rem;
-        font-style: italic;
-    }
-    img {
-        border: 0.2rem solid #000000;
-    }
+  p {
+    color: #777777;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  img {
+    border: 0.2rem solid #000000;
+  }
 }
 .post-to-select:hover {
-    h2 {
-        color: #000000;
-    }
-    h1 {
-        color: #ffffff;
-    }
+  h2 {
+    color: #000000;
+  }
+  h1 {
+    color: #ffffff;
+  }
 }
 
 .post {
-    margin: 1rem 0;
+  margin: 1rem 0;
 
-    a {
-        background: #f4f4f4;
-        color: #000000;
-        display: block;
-        padding: 1rem;
-        text-decoration: none;
-    }
+  a {
+    background: #f4f4f4;
+    color: #000000;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+  }
 
-    a:hover {
-        background: #e4e4e4;
-    }
+  a:hover {
+    background: #e4e4e4;
+  }
 
-    h2 {
-        margin-bottom: 0;
-    }
+  h2 {
+    margin-bottom: 0;
+  }
 
-    p {
-        color: #777777;
-        font-size: 0.95rem;
-    }
-    img {
-        display: block;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
+  p {
+    color: #777777;
+    font-size: 0.95rem;
+  }
+  img {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .scrolling-wrapper-flexbox:after {
-        display: none;
-    }
-    .scrolling-wrapper-flexbox .feature-card {
-        width: 40%;
-        height: 200px;
-    }
-    .scrolling-wrapper-flexbox .padder-card {
-        display: inline-block;
-    }
+  .scrolling-wrapper-flexbox:after {
+    display: none;
+  }
+  .scrolling-wrapper-flexbox .feature-card {
+    width: 40%;
+    height: 200px;
+  }
+  .scrolling-wrapper-flexbox .padder-card {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 540px) {
-    .scrolling-wrapper-flexbox .feature-card {
-        width: 78%;
-        height: 190px;
-    }
-    .scrolling {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
+  .scrolling-wrapper-flexbox .feature-card {
+    width: 78%;
+    height: 190px;
+  }
+  .scrolling {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 540px) {
-    .scrolling-wrapper-flexbox .feature-card {
-        width: 90%;
-        height: 250px;
-    }
-    .scrolling {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  .scrolling-wrapper-flexbox .feature-card {
+    width: 90%;
+    height: 250px;
+  }
+  .scrolling {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 // Footer component
 footer.footer-dark {
-    background: $secondary;
-    color: white;
-    padding: 2rem 1.5rem 2rem;
-    .columns {
-        margin-top: 10px;
+  background: $secondary;
+  color: white;
+  padding: 2rem 1.5rem 2rem;
+  .columns {
+    margin-top: 10px;
+  }
+  .footer-logo {
+    margin: auto;
+    img {
+      height: 75px;
     }
-    .footer-logo {
-        margin: auto;
-        img {
-            height: 75px;
-        }
+  }
+  .footer-modal {
+    color: black;
+  }
+  .footer-column {
+    .footer-header h3 {
+      font-weight: 500;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
     }
-    .footer-modal {
-        color: black;
+    ul.link-list {
+      line-height: 40px;
+      font-size: 1.1rem;
+      a {
+        color: white;
+        font-weight: 400;
+      }
+      a:hover {
+        color: $primary;
+      }
     }
-    .footer-column {
-        .footer-header h3 {
-            font-weight: 500;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-        }
-        ul.link-list {
-            line-height: 40px;
-            font-size: 1.1rem;
-            a {
-                color: white;
-                font-weight: 400;
-            }
-            a:hover {
-                color: $primary;
-            }
-        }
-        .level-item {
-            padding-top: 10px;
-            .footer-icon {
-                color: white;
-            }
+    .level-item {
+      padding-top: 10px;
+      .footer-icon {
+        color: white;
+      }
 
-            :hover {
-                color: $primary;
-            }
-        }
+      :hover {
+        color: $primary;
+      }
     }
+  }
 }
 
 // Contact Page
 .contact-map {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 20px;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .team-member {
-    display: flex;
-    color: black;
-    justify-content: center;
-    font-weight: bold;
+  display: flex;
+  color: black;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .team-area {
-    display: flex;
-    color: black;
-    align-items: center;
-    justify-content: center;
-    &:hover {
-        color: $primary;
-        font-weight: bold;
-    }
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    color: $primary;
+    font-weight: bold;
+  }
 }
 
 .images-team {
-    display: flex;
-    width: 7.9rem;
-    height: 7.9rem;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 0 0 6.5px #000;
-    object-fit: cover;
-    object-position: 87% 0;
+  display: flex;
+  width: 7.9rem;
+  height: 7.9rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 6.5px #000;
+  object-fit: cover;
+  object-position: 87% 0;
 }
 
 .images-team:after {
-    content: "";
-    padding-bottom: 100%;
-    display: block;
+  content: '';
+  padding-bottom: 100%;
+  display: block;
 }
 
 .titles-team {
-    display: flex;
-    font-weight: bold;
-    justify-content: center;
-    margin-bottom: 2rem;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .departaments {
-    z-index: 9;
-    background: white;
-    flex: 0 0 auto;
-    padding: 30px 16px;
-    margin-right: 2%;
-    border: 1px solid white;
-    width: 50%;
-    border-radius: 4px;
-    display: inline-block;
-    border: 1px solid #dedede;
-    text-align: center;
-    position: relative;
+  z-index: 9;
+  background: white;
+  flex: 0 0 auto;
+  padding: 30px 16px;
+  margin-right: 2%;
+  border: 1px solid white;
+  width: 50%;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #dedede;
+  text-align: center;
+  position: relative;
 }
 
 .descriptions {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    text-align: justify;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  text-align: justify;
 }
 
 .team-anchor {
-    display: block;
-    position: relative;
-    top: -75px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -75px;
+  visibility: hidden;
 }
 
 .image-gallery-left-nav,
 .image-gallery-right-nav {
-    &:hover::before {
-        color: $secondary;
-    }
+  &:hover::before {
+    color: $secondary;
+  }
 }
 
 .image-gallery-thumbnail {
-    &.active {
-        border: 4px solid $secondary;
+  &.active {
+    border: 4px solid $secondary;
 
-        // @media (max-width: $screen-sm-min) {
-        //     border: 3px solid $secondary;
-        // }
-    }
+    // @media (max-width: $screen-sm-min) {
+    //     border: 3px solid $secondary;
+    // }
+  }
 }
 .imagemTeste {
-    max-height: 30px;
+  max-height: 30px;
 }
 
 .team-leader {
-    border: 4px solid rgb(0, 0, 0);
+  border: 4px solid rgb(0, 0, 0);
 }
 
 .container-team {
-    margin-top: 30px;
-    margin-bottom: 70px;
-    justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  justify-content: center;
 }
 
 .block-title-bw {
-    margin: 50px 0 5px;
-    white-space: nowrap;
-    padding: 5px;
-    font-size: 2em;
-    width: min-content;
-    height: fit-content;
-    border: 4px solid $secondary;
+  margin: 50px 0 5px;
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 2em;
+  width: min-content;
+  height: fit-content;
+  border: 4px solid $secondary;
 }
 
 .professor {
-    text-align: center;
+  text-align: center;
 }

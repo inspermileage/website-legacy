@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react';
 
-import InicialPage from "../initialPage"
+import InicialPage from '../initialPage';
 
-const IndexPage = () => <InicialPage />
+const IndexPage = () => <InicialPage />;
 
-export default IndexPage
+export default IndexPage;
