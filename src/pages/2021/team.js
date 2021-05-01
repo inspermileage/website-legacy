@@ -74,6 +74,15 @@ const EquipePage2021 = () => (
                 />
 
                 <TeamComponent
+                  name="Igor Seramisu"
+                  link="https://www.linkedin.com/in/igor-seramisu"
+                  office="Administrativo"
+                  link_area="/2020/project/#administrativo"
+                  classe="images-team"
+                  image={icon}
+                />
+
+                <TeamComponent
                   name="Priscila Baron"
                   link="https://www.linkedin.com/"
                   office="Administrativo"
@@ -93,6 +102,15 @@ const EquipePage2021 = () => (
 
                 <TeamComponent
                   name="Bruno Yuji"
+                  link="https://www.linkedin.com/"
+                  office="Administrativo"
+                  link_area="/2021/project/#administrativo"
+                  classe="images-team"
+                  image={icon}
+                />
+
+                <TeamComponent
+                  name="Guilherme Aveiro"
                   link="https://www.linkedin.com/"
                   office="Administrativo"
                   link_area="/2021/project/#administrativo"
@@ -146,6 +164,15 @@ const EquipePage2021 = () => (
                 <TeamComponent
                   name="Maurício Ando"
                   link="https://www.linkedin.com/in/maur%C3%ADcio-ando-3106b5164/"
+                  office="Controle"
+                  link_area="/2021/project/#controle"
+                  classe="images-team"
+                  image={icon}
+                />
+
+                <TeamComponent
+                  name="Rodrigo Ignacio"
+                  link="https://www.linkedin.com/"
                   office="Controle"
                   link_area="/2021/project/#controle"
                   classe="images-team"
