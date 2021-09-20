@@ -81,9 +81,6 @@ class Footer extends React.Component {
                     <Link to="/partners">Parcerias</Link>
                   </li>
                   <li>
-                    <Link to="/construction">Midia Kit</Link>
-                  </li>
-                  <li>
                     <a onClick={this.toggleTermsModal}>Termos e condições</a>
                   </li>
                   <li>
@@ -104,9 +101,6 @@ class Footer extends React.Component {
                     </li>
                     <li>
                       <Link to="/construction">Blog</Link>
-                    </li>
-                    <li>
-                      <Link to="/construction">Newsletter</Link>
                     </li>
                   </ul>
                   <nav class="level is-mobile">

@@ -67,7 +67,7 @@ const EquipePage2021 = () => (
                 <TeamComponent
                   name="Ellen Shen" // sem linkedin
                   link="https://www.linkedin.com/"
-                  office="Diretor do Administrativa"
+                  office="Diretora do Administrativo"
                   link_area="/2021/project/#administrativo"
                   classe="images-team team-leader"
                   image={icon}

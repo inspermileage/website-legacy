@@ -3,11 +3,13 @@ import Layout from '../components/Layout';
 import InsperLogo from '../images/partners/insper.svg';
 import AffariLogo from '../images/partners/affari.svg';
 import AtteiLogo from '../images/partners/ateei.png';
+import PreparoLogo from '../images/partners/preparo.png';
 import Eurobikelogo from '../images/partners/eurobike.svg';
 import Energisalogo from '../images/partners/energisa.svg';
 import SEO from '../components/SEO';
 import PartnerCard from '../components/PartnerCard';
 import PartnerHeader from '../components/PartnerHeader';
+
 
 const partners = () => (
   <Layout>
@@ -79,12 +81,20 @@ const partners = () => (
                                                 facilitar a vida de seus clientes."
               partnerType="platina"
             />
+
+            <PartnerCard
+              link="https://preparovc.com/"
+              img={PreparoLogo}
+              alt="Preparo"
+              description=" A Preparo é uma startup que possui como objetivo  ajudar universitários, 
+                      independente da faculdade ou curso que tenham escolhido, a trilhar suas carreiras
+                      profissionais por meio de direcionamento, preparação técnica e desenvolvimento pessoal 
+                      para o mercado de trabalho. "
+              partnerType="platina"
+            />
           </div>
 
-          <PartnerHeader type="APOIO" />
-          <div class="columns is-multiline is-centered">
-            <PartnerCard img={AffariLogo} alt="Affari" partnerType="apoio" />
-          </div>
+          
         </div>
       </div>
     </section>

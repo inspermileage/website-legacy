@@ -68,11 +68,11 @@ const ContactPage = () => (
                   link="mailto:inspermileage@gmail.com"
                   icon={FaEnvelope}
                   class={false}
-                  name="insper.mileage@gmail.com"
+                  name="inspermileage@insper.edu.br"
                 />
 
                 <ContactComponent
-                  link="tel:+5511999217548"
+                  link="tel:+5511996036683"
                   icon={FaWhatsapp}
                   class={false}
                   name="+55 11 999217548"
