@@ -75,9 +75,9 @@ class Header extends React.Component {
               <OutboundLink href="/partners" className="navbar-item is-tab">
                 Parceiros
               </OutboundLink>
-              <OutboundLink href="/blog" className="navbar-item is-tab">
+              {/* <OutboundLink href="/blog" className="navbar-item is-tab">
                 Blog
-              </OutboundLink>
+              </OutboundLink> */}
               <OutboundLink href="/contact" className="navbar-item is-tab">
                 Contato
               </OutboundLink>
