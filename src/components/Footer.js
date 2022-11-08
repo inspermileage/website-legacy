@@ -144,6 +144,9 @@ class Footer extends React.Component {
                       </OutboundLink>
                     </div>
                   </nav>
+                  <div>
+                    <a href="https://vercel.com/?utm_source=inspermileage&utm_campaign=oss" target="_blank" rel="norefer noopener"><img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
+                  </div>
                 </div>
               </div>
             </div>
