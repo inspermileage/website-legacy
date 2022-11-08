@@ -76,3 +76,5 @@ Por favor leia [CONTRIBUTING](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Licença
 
 Esse projeto está licenciado sobre a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+
+[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=inspermileage&utm_campaign=oss)
