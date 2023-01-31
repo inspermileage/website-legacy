@@ -1,6 +1,4 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const Intro = () => (
   <div class="SectionBlock">
@@ -19,7 +17,7 @@ const Intro = () => (
                 participar se inscrevendo no link abaixo.
               </h2>
               <p>
-                <a href="https://join.inspermileage.com/" rel="noreferrer">Conheça mais</a>
+                <a href="https://join.inspermileage.com/" rel="noreferrer" class="button is-wiite">Conheça mais</a>
               </p>
             </div>
           </div>
