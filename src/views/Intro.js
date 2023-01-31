@@ -14,16 +14,12 @@ const Intro = () => (
           <div class="columns">
             <div class="column is-9">
               <h2 class="title is-2 has-text-white">
-                Aproximando estudantes do Insper de uma situação real de
-                pesquisa e desenvolvimento de tecnologias voltadas para
-                mobilidade sustentável
+                Estamos com o nosso processo seletivo aberto!
+                Sabia mais sobre o nosso projeto e venha
+                participar se inscrevendo no link abaixo.
               </h2>
               <p>
-                <OutboundLink>
-                  <AnchorLink class="button is-white is-outlined" href="#about">
-                    Conheça mais
-                  </AnchorLink>
-                </OutboundLink>
+                <a href="https://join.inspermileage.com/" rel="noreferrer">Conheça mais</a>
               </p>
             </div>
           </div>
